@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiasporaFest | Festivalul Internațional al Prieteniei</title>
+    <meta name="description"
+        content="DiasporaFest: Un ponte tra identità, cultura e integrazione. 31 Maggio 2026, Cesena. Organizato da AMIC (Asociația Moldovenilor cu Impact Comunitar).">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <img src="images/LogoAMIC.png" alt="AMIC Logo"
+                    onerror="this.src='https://via.placeholder.com/120x40?text=AMIC'">
+                <span data-i18n="nav_brand">DiasporaFest</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active" data-i18n="nav_home">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav_about">Chi Siamo</a></li>
+                    <li class="nav-item"><a href="#activities" class="nav-link" data-i18n="nav_activities">Attività</a>
+                    </li>
+                    <li class="nav-item"><a href="#partners" class="nav-link" data-i18n="nav_partners">Partner</a></li>
+                </ul>
+            </div>
+
+            <div class="lang-switcher">
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="lang-btn">
+                        <span class="lang-flag" id="current-flag">🇮🇹</span>
+                        <span class="lang-text" id="current-lang">IT</span>
+                        <svg class="lang-icon" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <ul class="lang-menu" id="lang-menu">
+                        <li class="lang-option" data-value="it"><span class="lang-flag">🇮🇹</span> IT</li>
+                        <li class="lang-option" data-value="ro"><span class="lang-flag">🇲🇩</span> RO</li>
+                        <li class="lang-option" data-value="en"><span class="lang-flag">🇬🇧</span> EN</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <span class="hero-date" data-i18n="hero_date">31 Maggio 2026 | Cesena</span>
+            <h1 class="hero-title" data-i18n="hero_title">Festivalul Internațional al <span
+                    class="text-gradient">Prieteniei</span></h1>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">Un ponte vibrante tra identità, cultura și integrare
+                organizat de AMIC.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary" data-i18n="btn_discover">Scopri di più</a>
+                <a href="#activities" class="btn btn-outline" data-i18n="btn_program">Vedi il Programma</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2 class="section-title" data-i18n="about_title">Celebriamo la Nostra Identità</h2>
+                <p data-i18n="about_p1">AMIC (Asociatia Moldovenilor cu Impact Comunitar) prezintă cu mândrie un
+                    festival internațional dedicat promovării prieteniei și tradițiilor moldovenești.</p>
+                <p data-i18n="about_p2">Evenimentul nostru reunește comunități din diaspora și invitați internaționali
+                    pentru a celebra o zi plină de cultură, artă și valori comune. Vrem să construim un spațiu de dialog
+                    și schimb cultural valorificând patrimoniul nostru.</p>
+                <blockquote class="quote" data-i18n="about_quote">
+                    "AMIC este o platformă pentru prietenie, cultură și tradiție."
+                </blockquote>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <span class="stat-number">1a</span>
+                    <span class="stat-label" data-i18n="stat_edition">Edizione</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label" data-i18n="stat_participants">Partecipanti Attesi</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label" data-i18n="stat_activities">Spettacoli e Attività</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities section bg-light" id="activities">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="activities_title">Un Programma Ricco di Emozioni</h2>
+            <p class="section-subtitle text-center" data-i18n="activities_subtitle">Una giornata articolata pensata per
+                tutti i gusti e tutte le età.</p>
+
+            <div class="activities-grid">
+                <!-- Activity Card 1 -->
+                <div class="activity-card">
+                    <div class="card-icon">🎭</div>
+                    <div class="card-content">
+                        <h3 data-i18n="act_culture_title">Cultura e Spettacolo</h3>
+                        <p data-i18n="act_culture_desc">Esibizioni di musica e danza tradițională, momente
+                            interculturale e ospiti instituționali. Tradiția prinde viață pe scenă.</p>
+                    </div>
+                </div>
+
+                <!-- Activity Card 2 -->
+                <div class="activity-card">
+                    <div class="card-icon">⚽</div>
+                    <div class="card-content">
+                        <h3 data-i18n="act_sport_title">Sport e Inclusione</h3>
+                        <p data-i18n="act_sport_desc">Turnee de fotbal, volei, șah și tenis de masă. Sportul unește și
+                            creează noi prietenii într-o atmosferă competitivă, dar prietenoasă.</p>
+                    </div>
+                </div>
+
+                <!-- Activity Card 3 -->
+                <div class="activity-card">
+                    <div class="card-icon">🎨</div>
+                    <div class="card-content">
+                        <h3 data-i18n="act_kids_title">Area Kids</h3>
+                        <p data-i18n="act_kids_desc">Spații dedicate copiilor cu animație și ateliere creative. O zonă
+                            sigură și distractivă pentru cei mai mici participanți.</p>
+                    </div>
+                </div>
+
+                <!-- Activity Card 4 -->
+                <div class="activity-card">
+                    <div class="card-icon">🍲</div>
+                    <div class="card-content">
+                        <h3 data-i18n="act_food_title">Food & Beverage</h3>
+                        <p data-i18n="act_food_desc">Standuri cu bucătărie tradițională moldovenească și specialități
+                            romagnole. Descoperă gustul autentic al Mămăligii și al sarmalelor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners section" id="partners">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="partners_title">Susținut De</h2>
+            <p class="section-subtitle text-center" data-i18n="partners_subtitle">Mulțumim partenerilor noștri care fac
+                acest eveniment posibil.</p>
+            <div class="partners-list">
+                <div class="partner-item" data-i18n="partner_1">Ambasada Republicii Moldova</div>
+                <div class="partner-item" data-i18n="partner_2">Istituzioni Culturali</div>
+                <div class="partner-item" data-i18n="partner_3">ONG din Diaspora</div>
+                <div class="partner-item" data-i18n="partner_4">Autorități Locale</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="footer_brand">DiasporaFest</h3>
+                <p data-i18n="footer_desc">Organizat de AMIC pentru a promova prietenia, cultura și tradițiile
+                    moldovenești.</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_contact">Contatti</h3>
+                <p>Email: contact@amic.org</p>
+                <p>Website: www.amic.org</p>
+            </div>
+            <div class="footer-col">
+                <h3>Hashtags</h3>
+                <div class="hashtags">
+                    <span>#AMIC</span> <span>#DiasporaFest</span> <span>#Moldova</span> <span>#Tradiții</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile
+                rezervate.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
