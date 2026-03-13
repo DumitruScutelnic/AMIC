@@ -7,7 +7,7 @@
 ### Un ponte tra identità, cultura e integrazione
 
 ### 1. Descriere
-
+ 
 AMIC este un festival internațional dedicat promovării prieteniei și tradițiilor moldovenești. Evenimentul reunește comunități din diaspora și invitați internaționali pentru a celebra cultura, arta și valorile comune.
 
 ### 2. Obiective
