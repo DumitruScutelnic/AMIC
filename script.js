@@ -11,6 +11,17 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             header.classList.remove('scrolled');
         }
+        
+        // Chiudi il menu mobile se l'utente inizia a scorrere
+        const navMenu = document.getElementById('nav-menu');
+        const navToggle = document.getElementById('nav-toggle');
+        if (navMenu && navMenu.classList.contains('show-menu')) {
+            navMenu.classList.remove('show-menu');
+            if (navToggle) navToggle.classList.remove('active');
+            header.style.backgroundColor = '';
+            const logo = document.querySelector('.logo');
+            if(logo && header.classList.contains('scrolled')) logo.style.color = '';
+        }
     });
 
     // --- 2. Mobile Menu Toggle ---
