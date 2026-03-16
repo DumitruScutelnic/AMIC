@@ -988,27 +988,43 @@ img {
     margin-top: 10px;
   }
   
-  /* Mobile Carousel Fixes */
+  /* Mobile Carousel Fixes — hide arrows, user swipes instead */
+  .carousel-btn {
+    display: none;
+  }
+
   .carousel-container {
-    padding: 2rem 5vw;
+    padding: 2rem 1rem;
     gap: 1.5rem;
   }
   
   .blog-post {
-    min-width: 85vw; /* Make cards fit the screen fully without squishing */
+    min-width: calc(100vw - 2rem) !important; /* Full width minus padding */
+    max-width: calc(100vw - 2rem) !important;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 0;
+    overflow: hidden;
   }
   
   .blog-post_img {
-    min-width: 100%;
-    transform: none; /* Reset the left pop-out transform */
-    height: 200px; 
-    margin-bottom: 1.5rem;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    transform: none; /* Remove desktop pop-out */
+    height: 220px;
+    margin: 0;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+
+  .blog-post_img::before {
+    border-radius: var(--radius) var(--radius) 0 0;
   }
   
   .blog-post_info {
-    padding-right: 0;
+    padding: 1.5rem;
+  }
+
+  .blog-post_title {
+    font-size: 1.4rem !important;
   }
 
 
