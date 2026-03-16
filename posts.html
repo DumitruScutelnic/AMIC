@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiasporaFest | Eventi e Post</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header scrolled" id="header"
+        style="background-color: var(--bg-white); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+        <nav class="navbar container">
+            <a href="index.html" class="logo" style="color: var(--primary);">
+                <img src="images/LogoAMIC.png" alt="AMIC Logo"
+                    onerror="this.src='https://via.placeholder.com/120x40?text=AMIC'">
+                <span data-i18n="nav_brand">DiasporaFest</span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#home" class="nav-link" style="color: var(--text-dark);"
+                            data-i18n="nav_home">Home</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link" style="color: var(--text-dark);"
+                            data-i18n="nav_about">Chi Siamo</a></li>
+                    <li class="nav-item"><a href="index.html#activities" class="nav-link"
+                            style="color: var(--text-dark);" data-i18n="nav_activities">Attività</a></li>
+                    <li class="nav-item"><a href="index.html#past-events" class="nav-link" style="color: var(--text-dark);"
+                            data-i18n="nav_events">Eventi</a></li>
+                    <li class="nav-item"><a href="index.html#partners" class="nav-link" style="color: var(--text-dark);"
+                            data-i18n="nav_partners">Partner</a></li>
+                </ul>
+            </div>
+
+            <div class="lang-switcher">
+                <div class="lang-dropdown">
+                    <button class="lang-btn" id="lang-btn"
+                        style="color: var(--text-dark); border-color: rgba(0,0,0,0.1); background: rgba(0,0,0,0.05);">
+                        <span class="lang-flag" id="current-flag">🇮🇹</span>
+                        <span class="lang-text" id="current-lang">IT</span>
+                        <svg class="lang-icon" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <ul class="lang-menu" id="lang-menu">
+                        <li class="lang-option" data-value="it"><span class="lang-flag">🇮🇹</span> IT</li>
+                        <li class="lang-option" data-value="ro"><span class="lang-flag">🇲🇩</span> RO</li>
+                        <li class="lang-option" data-value="en"><span class="lang-flag">🇬🇧</span> EN</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span style="background-color: var(--text-dark);"></span>
+                <span style="background-color: var(--text-dark);"></span>
+                <span style="background-color: var(--text-dark);"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Timeline Section -->
+    <main style="padding-top: 100px; padding-bottom: 50px; background-color: var(--bg-light); min-height: 80vh;">
+        <div class="container">
+            <h1 class="section-title text-center" style="margin-bottom: 3rem;" data-i18n="pe_section_title">Eventi
+                Passati</h1>
+
+            <div class="timeline">
+                <!-- Post 0: DiasporaFest 2026 -->
+                <div class="timeline-item" id="post-0">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <span data-i18n="post0_date">31 Maggio 2026 | Parco per Fabio, Cesena</span>
+                        </div>
+                        <h2 class="timeline-title" data-i18n="post0_title">DiasporaFest 2026 - Festival Internazionale dell'Amicizia</h2>
+                        <div class="timeline-img">
+                            <img src="images/posts/DisaporaFest2026.png" alt="DiasporaFest 2026" onerror="this.src='https://via.placeholder.com/800x400?text=DiasporaFest+2026'">
+                        </div>
+                        <div class="timeline-body" data-i18n="post0_full">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 1: Screening Mammografico -->
+                <div class="timeline-item right" id="post-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <span data-i18n="post1_date">18 aprile 2026, dalle ore 10:00 alle ore 12:00</span>
+                        </div>
+                        <h2 class="timeline-title" data-i18n="post1_title">Incontro di sensibilizzazione sullo screening
+                            mammografico</h2>
+                        <div class="timeline-img">
+                            <img src="images/posts/screening.jpg" alt="Screening Mammografico"
+                                onerror="this.style.display='none'">
+                        </div>
+                        <div class="timeline-body" data-i18n="post1_full">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2: Orientamento Lavoro -->
+                <div class="timeline-item" id="post-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <span data-i18n="post2_date">Marzo 2026 | Opportunità gratuita</span>
+                        </div>
+                        <h2 class="timeline-title" data-i18n="post2_title">Percorso gratuito di orientamento al lavoro
+                            per donne</h2>
+                        <div class="timeline-img">
+                            <img src="images/posts/IMG-20260310-WA0012.jpg" alt="Orientamento al Lavoro"
+                                onerror="this.src='https://via.placeholder.com/800x400?text=Locandina+Orientamento'">
+                        </div>
+                        <div class="timeline-body" data-i18n="post2_full">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="footer_brand">DiasporaFest</h3>
+                <p data-i18n="footer_desc">Organizat de AMIC pentru a promova prietenia, cultura și tradițiile
+                    moldovenești.</p>
+                <div class="hashtags" style="margin-top: 1rem;">
+                    <span>#AMIC</span> <span>#DiasporaFest</span> <span>#Moldova</span> <span>#Tradiții</span>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_contact">Contatti</h3>
+                <p data-i18n="footer_phone">Telefono: 3473220558</p>
+                <p>Email: <a href="mailto:amicimpact@gmail.com"
+                        style="color: inherit; text-decoration: none;">amicimpact@gmail.com</a></p>
+                <p>PEC: <a href="mailto:amicimpact@pec.it"
+                        style="color: inherit; text-decoration: none;">AMICIMPACT@PEC.IT</a></p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_legal">Dati Legali</h3>
+                <p data-i18n="footer_assoc">ASSOCIAZIONE AMIC APS CESENA</p>
+                <p>C.F.: 90088070408</p>
+                <p>IBAN: IT06G0707023900000000422965</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_hq">Sede</h3>
+                <p data-i18n="footer_pres">Presidente e Rappresentante Legale: Causnean Aliona</p>
+                <p data-i18n="footer_address">Via San Mauro 3388, 47522 Cesena (FC)</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copyright">&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile
+                rezervate.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

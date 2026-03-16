@@ -35,6 +35,7 @@
                     <li class="nav-item"><a href="#about" class="nav-link" data-i18n="nav_about">Chi Siamo</a></li>
                     <li class="nav-item"><a href="#activities" class="nav-link" data-i18n="nav_activities">Attività</a>
                     </li>
+                    <li class="nav-item"><a href="#past-events" class="nav-link" data-i18n="nav_events">Eventi</a></li>
                     <li class="nav-item"><a href="#partners" class="nav-link" data-i18n="nav_partners">Partner</a></li>
                 </ul>
             </div>
@@ -166,17 +167,150 @@
         </div>
     </section>
 
+    <!-- Past Events / Posts Section -->
+    <section class="past-events section" id="past-events" style="overflow-x: hidden;">
+        <div class="container">
+            <h2 class="section-title text-center" data-i18n="pe_section_title">Eventi</h2>
+            <p class="section-subtitle text-center" data-i18n="pe_section_subtitle">Scopri i momenti più belli delle
+                edizioni precedenti.</p>
+        </div>
+
+        <div class="carousel-wrapper">
+            <button class="carousel-btn prev-btn" id="carousel-prev" aria-label="Scorri a sinistra">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+
+            <div class="carousel-container" id="events-carousel">
+                <!-- Card 0: DiasporaFest -->
+                <article class="blog-post">
+                    <div class="blog-post_img">
+                        <img src="images/posts/DisaporaFest2026.png" alt="DiasporaFest 2026"
+                            onerror="this.src='https://via.placeholder.com/600x400?text=DiasporaFest'">
+                    </div>
+                    <div class="blog-post_info">
+                        <div class="blog-post_date">
+                            <span data-i18n="post0_date">31 Maggio 2026 | Parco per Fabio, Cesena</span>
+                        </div>
+                        <h2 class="blog-post_title" data-i18n="post0_title" style="font-size: 1.8rem;">DiasporaFest 2026 - Festival Internazionale dell'Amicizia</h2>
+                        <p data-i18n="post0_desc">La nuova edizione del DiasporaFest! Una giornata all'insegna di cultura, gastronomia e tradizioni moldave con ospiti speciali.</p>
+                        <a href="posts.html#post-0" class="btn btn-primary" data-i18n="pe_btn">Scopri di più</a>
+                    </div>
+                </article>
+
+                <!-- Card 1 -->
+                <article class="blog-post">
+                    <div class="blog-post_img">
+                        <img src="images/posts/screening.png" alt="Screening Mammografico"
+                            onerror="this.src='https://via.placeholder.com/600x400?text=Screening+Mammografico'">
+                    </div>
+                    <div class="blog-post_info">
+                        <div class="blog-post_date">
+                            <span data-i18n="post1_date">18 aprile 2026, dalle ore 10:00 alle ore 12:00</span>
+                        </div>
+                        <h2 class="blog-post_title" data-i18n="post1_title" style="font-size: 1.8rem;">Incontro di
+                            sensibilizzazione sullo screening mammografico</h2>
+                        <p data-i18n="post1_desc">Un importante incontro dedicato allo screening mammografico, aperto a
+                            tutte le donne del territorio per informazione e orientamento.</p>
+                        <a href="posts.html#post-1" class="btn btn-primary" data-i18n="pe_btn">Scopri di più</a>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="blog-post">
+                    <div class="blog-post_img">
+                        <img src="images/posts/IMG-20260310-WA0012.jpg" alt="Orientamento Lavoro"
+                            onerror="this.src='https://via.placeholder.com/600x400?text=Orientamento+Lavoro'">
+                    </div>
+                    <div class="blog-post_info">
+                        <div class="blog-post_date">
+                            <span data-i18n="post2_date">Marzo 2026 | Opportunità gratuita</span>
+                        </div>
+                        <h2 class="blog-post_title" data-i18n="post2_title" style="font-size: 1.8rem;">Percorso gratuito
+                            di orientamento al lavoro per donne</h2>
+                        <p data-i18n="post2_desc">Un percorso per donne e ragazze per costruire il proprio progetto di
+                            vita, ricercare opportunità professionali ed educazione finanziaria.</p>
+                        <a href="posts.html#post-2" class="btn btn-primary" data-i18n="pe_btn">Scopri di più</a>
+                    </div>
+                </article>
+            </div>
+
+            <button class="carousel-btn next-btn" id="carousel-next" aria-label="Scorri a destra">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
     <!-- Partners Section -->
-    <section class="partners section" id="partners">
+    <section class="partners section bg-light" id="partners">
         <div class="container">
             <h2 class="section-title text-center" data-i18n="partners_title">Susținut De</h2>
             <p class="section-subtitle text-center" data-i18n="partners_subtitle">Mulțumim partenerilor noștri care fac
                 acest eveniment posibil.</p>
             <div class="partners-list">
-                <div class="partner-item" data-i18n="partner_1">Ambasada Republicii Moldova</div>
-                <div class="partner-item" data-i18n="partner_2">Istituzioni Culturali</div>
-                <div class="partner-item" data-i18n="partner_3">ONG din Diaspora</div>
-                <div class="partner-item" data-i18n="partner_4">Autorități Locale</div>
+                <div class="partner-item">
+                    <img src="images/partners/ambasciata-moldova.png" alt="Ambasciata Moldova"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Ambasciata'">
+                    <span data-i18n="partner_1">Ambasada Republicii Moldova</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/consolato-milano.png" alt="Consolato Milano"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Consolato+Milano'">
+                    <span data-i18n="partner_10">Consolato Generale di Milano</span>
+                </div>
+                <!-- <div class="partner-item">
+                    <img src="images/partners/istituzioni-culturali.png" alt="Istituzioni Culturali"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Istituzioni'">
+                    <span data-i18n="partner_2">Istituzioni Culturali</span>
+                </div> -->
+                <!-- <div class="partner-item">
+                    <img src="images/partners/ong-diaspora.png" alt="ONG Diaspora"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=ONG+Diaspora'">
+                    <span data-i18n="partner_3">ONG din Diaspora</span>
+                </div> -->
+                <div class="partner-item">
+                    <img src="images/partners/Logo-Comune-di-Cesena.png" alt="Autorità Locali"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Autorit%C3%A0'">
+                    <span data-i18n="partner_4">Autorități Locale</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/dante-alighieri.png" alt="Dante Alighieri"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Dante+Alighieri'">
+                    <span data-i18n="partner_5">Associazione "Dante Alighieri", Cesena</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/scacchiera-onnon.png" alt="Scacchiera Onnon"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Scacchiera+Onnon'">
+                    <span data-i18n="partner_6">Associazione LA SCACCHIERA DI ONNON</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/csi-cesena.png" alt="CSI Cesena"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=CSI+Cesena'">
+                    <span data-i18n="partner_7">CSI CESENA</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/csi.png" alt="CSI Forli"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=CSI+Forli'">
+                    <span data-i18n="partner_8">CSI FORLI'</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/trenino-stelle.png" alt="Trenino delle stelle"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Trenino+Stelle'">
+                    <span data-i18n="partner_9">Trenino delle stelle</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/progetto-11.png" alt="Progetto 11"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Progetto+11'">
+                    <span data-i18n="partner_11">Progetto 11</span>
+                </div>
+                <div class="partner-item">
+                    <img src="images/partners/aquilone-iqbal.png" alt="Aquilone di Iqbal"
+                        onerror="this.src='https://via.placeholder.com/150x80?text=Aquilone+Iqbal'">
+                    <span data-i18n="partner_12">L'Aquilone di Iqbal</span>
+                </div>
             </div>
         </div>
     </section>
@@ -188,17 +322,28 @@
                 <h3 data-i18n="footer_brand">DiasporaFest</h3>
                 <p data-i18n="footer_desc">Organizat de AMIC pentru a promova prietenia, cultura și tradițiile
                     moldovenești.</p>
+                <div class="hashtags" style="margin-top: 1rem;">
+                    <span>#AMIC</span> <span>#DiasporaFest</span> <span>#Moldova</span> <span>#Tradiții</span>
+                </div>
             </div>
             <div class="footer-col">
                 <h3 data-i18n="footer_contact">Contatti</h3>
-                <p>Email: contact@amic.org</p>
-                <p>Website: www.amic.org</p>
+                <p data-i18n="footer_phone">Telefono: 3473220558</p>
+                <p>Email: <a href="mailto:amicimpact@gmail.com"
+                        style="color: inherit; text-decoration: none;">amicimpact@gmail.com</a></p>
+                <p>PEC: <a href="mailto:amicimpact@pec.it"
+                        style="color: inherit; text-decoration: none;">AMICIMPACT@PEC.IT</a></p>
             </div>
             <div class="footer-col">
-                <h3>Hashtags</h3>
-                <div class="hashtags">
-                    <span>#AMIC</span> <span>#DiasporaFest</span> <span>#Moldova</span> <span>#Tradiții</span>
-                </div>
+                <h3 data-i18n="footer_legal">Dati Legali</h3>
+                <p data-i18n="footer_assoc">ASSOCIAZIONE AMIC APS CESENA</p>
+                <p>C.F.: 90088070408</p>
+                <p>IBAN: IT06G0707023900000000422965</p>
+            </div>
+            <div class="footer-col">
+                <h3 data-i18n="footer_hq">Sede</h3>
+                <p data-i18n="footer_pres">Presidente e Rappresentante Legale: Causnean Aliona</p>
+                <p data-i18n="footer_address">Via San Mauro 3388, 47522 Cesena (FC)</p>
             </div>
         </div>
         <div class="footer-bottom">
