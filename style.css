@@ -43,11 +43,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
 }
 
 body {
   font-family: var(--font-body);
   background-color: var(--bg-white);
+  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
   color: var(--text-dark);
   line-height: 1.6;
   overflow-x: hidden;
@@ -70,9 +72,11 @@ img {
 }
 
 .container {
+  width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+  overflow-x: hidden; /* Prevent children from overflowing */
 }
 
 .section {
@@ -942,7 +946,27 @@ img {
 /* --- Responsive Layout --- */
 @media screen and (max-width: 968px) {
   .hero-title { font-size: 3rem; }
-  .about-container { grid-template-columns: 1fr; gap: 3rem; }
+  .about-container { grid-template-columns: 1fr; gap: 2rem; }
+
+  /* Prevent text and sections from overflowing */
+  .section { padding: 4rem 0; }
+  .section-title { font-size: 1.5rem; word-wrap: break-word; overflow-wrap: break-word; }
+  .section-subtitle { font-size: 0.95rem; }
+  .about-text p { font-size: 1rem; }
+  .quote { font-size: 1rem; padding: 1rem; }
+  
+  /* Stats: 3 in a row, compact */
+  .about-stats { grid-template-columns: repeat(3, 1fr); gap: 0.8rem; }
+  .stat-card { padding: 1rem 0.5rem; }
+  .stat-card:nth-child(3) { grid-column: span 1; }
+  .stat-number { font-size: 1.8rem; }
+  .stat-label { font-size: 0.75rem; }
+  
+  /* Activities: single column to prevent overflow */
+  .activities-grid { grid-template-columns: 1fr !important; gap: 1.2rem; }
+  .activity-card { padding: 1.5rem; }
+  .activity-card h3 { font-size: 1.1rem; }
+  .activity-card p { font-size: 0.9rem; }
 }
 
 @media screen and (max-width: 768px) {
@@ -999,8 +1023,8 @@ img {
   }
   
   .blog-post {
-    min-width: calc(100vw - 2rem) !important; /* Full width minus padding */
-    max-width: calc(100vw - 2rem) !important;
+    min-width: 80vw !important; /* Narrower so borders are visible on each side */
+    max-width: 80vw !important;
     flex-direction: column;
     padding: 0;
     overflow: hidden;
