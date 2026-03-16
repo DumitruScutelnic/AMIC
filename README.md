@@ -1,5 +1,8 @@
-# CONTESTO PROGETTO: DiasporaFest
-## Festivalul Internațional al Prieteniei și Tradițiilor Moldovenești
+# CONTESTO PROGETTO: AMIC (Asociatia Moldovenilor cu Impact Comunitar)
+
+## Prosimo Evento
+
+### DiasporaFest 2026 - Festivalul Internațional al Prieteniei și Tradițiilor Moldovenești
 
 - 31 Maggio 2026 | Cesena
 - Un ponte tra identità, cultura e integrazione

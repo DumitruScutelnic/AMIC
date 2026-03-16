@@ -961,14 +961,17 @@ img {
     background: var(--bg-white);
     padding: 2rem 0;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    transition: 0.4s ease-in-out;
+    transition: top 0.4s ease-in-out, visibility 0s 0.4s; /* delay visibility hide until transition ends */
+    visibility: hidden; /* Fully hidden when closed */
+    pointer-events: none; /* Prevent ghost clicks */
+    z-index: 999;
   }
   
   .nav-menu.show-menu {
     top: var(--header-height);
-  }
-  .nav-menu.active {
-    right: 0;
+    visibility: visible; /* Show when open */
+    pointer-events: auto; /* Re-enable clicks */
+    transition: top 0.4s ease-in-out, visibility 0s 0s; /* show visibility immediately */
   }
 
   .nav-list {
