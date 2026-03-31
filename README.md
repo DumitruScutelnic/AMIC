@@ -12,7 +12,7 @@
 ---
 ### 1. Descriere
 
-AMIC este un festival internațional dedicat promovării prieteniei și tradițiilor moldovenești. Evenimentul reunește comunități din diaspora și invitați internaționali pentru a celebra cultura, arta și valorile comune.
+AMIC este o asociație dedicată promovării prieteniei și tradițiilor moldovenești. Evenimentul reunește comunități din diaspora și invitați internaționali pentru a celebra cultura, arta și valorile comune.
 
 ### 2. Obiective
 

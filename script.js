@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 5. Language Switching Logic ---
     const translations = {
         it: {
-            nav_brand: "DiasporaFest",
+            nav_brand: "AMIC",
             nav_home: "Home",
             nav_about: "Chi Siamo",
             nav_activities: "Attività",
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
             partner_10: "Consolato Generale della Repubblica di Moldavia a Milano",
             partner_11: "Progetto 11",
             partner_12: "L'Aquilone di Iqbal",
-            footer_brand: "DiasporaFest",
+            footer_brand: "AMIC",
             footer_desc: "Organizzato da AMIC per promuovere l'amicizia, la cultura e le tradizioni moldave.",
             footer_contact: "Contatti",
             footer_phone: "Telefono: <a href=\"tel:+393473220558\" style=\"color: inherit; text-decoration: none;\">3473220558</a>",
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_copyright: "&copy; 2026 Associazione AMIC. Evento non-profit. Tutti i diritti riservati."
         },
         ro: {
-            nav_brand: "DiasporaFest",
+            nav_brand: "AMIC",
             nav_home: "Acasă",
             nav_about: "Despre Noi",
             nav_activities: "Activități",
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
             partner_10: "Consulatul General al Republicii Moldova la Milano",
             partner_11: "Progetto 11",
             partner_12: "L'Aquilone di Iqbal",
-            footer_brand: "DiasporaFest",
+            footer_brand: "AMIC",
             footer_desc: "Organizat de AMIC pentru a promova prietenia, cultura și tradițiile moldovenești.",
             footer_contact: "Contacte",
             footer_phone: "Telefon: <a href=\"tel:+393473220558\" style=\"color: inherit; text-decoration: none;\">+39 3473220558</a>",
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_copyright: "&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile rezervate."
         },
         en: {
-            nav_brand: "DiasporaFest",
+            nav_brand: "AMIC",
             nav_home: "Home",
             nav_about: "About Us",
             nav_activities: "Activities",
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
             partner_10: "Consulate General of the Republic of Moldova in Milan",
             partner_11: "Progetto 11",
             partner_12: "L'Aquilone di Iqbal",
-            footer_brand: "DiasporaFest",
+            footer_brand: "AMIC",
             footer_desc: "Organized by AMIC to promote Moldovan friendship, culture, and traditions.",
             footer_contact: "Contact",
             footer_phone: "Phone: <a href=\"tel:+393473220558\" style=\"color: inherit; text-decoration: none;\">+39 3473220558</a>",
