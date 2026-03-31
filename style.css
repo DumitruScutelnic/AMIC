@@ -43,16 +43,15 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
+  /* overflow-x: hidden rimosso per fix bug Safari su elementi position: fixed */
 }
 
 body {
   font-family: var(--font-body);
   background-color: var(--bg-white);
-  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
   color: var(--text-dark);
   line-height: 1.6;
-  overflow-x: hidden;
+  /* overflow-x: hidden rimosso per fix bug Safari su elementi position: fixed */
 }
 
 a {
@@ -76,7 +75,7 @@ img {
   max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 1.5rem;
-  overflow-x: hidden; /* Prevent children from overflowing */
+  /* overflow-x: hidden; rimosso per evitare che i menu a tendina vengano tagliati */
 }
 
 .section {
