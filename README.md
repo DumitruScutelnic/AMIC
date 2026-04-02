@@ -43,3 +43,16 @@ Una giornata ricca e articolata, pensata per attrarre migliaia di partecipanti:
 ### 12. Hashtags
 
 #AMIC #DiasporaFest #Moldova #Tradiții #Prietenie #Cultură #Eveniment #Festival #Comunitate #Diaspora
+
+---
+
+### 13. Color Palette (Design Tech-Elegant)
+
+L'attuale stile visivo del sito è stato trasformato per risultare moderno, pulito e istituzionale, in linea con associazioni ad alto impatto estero e siti corporate (ispirato a `lumicompany.it` e `jew.htx.mybluehost.me`).
+La palette colori utilizzata sul progetto è:
+
+- **Primary (Deep Teal)**: `#276861` — Usato per fondi forti, elementi principali e bottoni, comunica professionalità e fiducia.
+- **Secondary (Sea Green)**: `#1ABDAF` — Il colore di accento "tech". Viene utilizzato per dettagli, linee e stati di hover sui bottoni.
+- **Sfondi Chiari**: Alternanza di *Pure White* (`#FFFFFF`), *Soft Mint* (`#E0E8E4`) e *Light Grey* (`#F9F9F9`), che mantengono il sito estremamente elegante, "arioso" (whitespace) e leggibile.
+- **Testo Scuro**: `#1D1D22` — Un grigio-blu scurissimo, molto più raffinato del classico nero puro, usato per garantire contrasto senza stancare la vista.
+- **Tipografia**: `Playfair Display` (Serif elegante) per i titoli principali e `Inter` (Sans-serif pulitissimo) per i paragrafi.
