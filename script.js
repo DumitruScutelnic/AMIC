@@ -134,7 +134,8 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_hq: "Sede",
             footer_pres: "Presidente e Rappresentante Legale: Causnean Aliona",
             footer_address: "Via San Mauro 3388, 47522 Cesena (FC)",
-            footer_copyright: "&copy; 2026 Associazione AMIC. Evento non-profit. Tutti i diritti riservati."
+            footer_copyright: "&copy; 2026 Associazione AMIC. Evento non-profit. Tutti i diritti riservati.",
+            footer_terms: "Termini e Condizioni"
         },
         ro: {
             nav_brand: "AMIC",
@@ -203,7 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_hq: "Sediu",
             footer_pres: "Președinte și Reprezentant Legal: Causnean Aliona",
             footer_address: "Strada San Mauro 3388, 47522 Cesena (FC)",
-            footer_copyright: "&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile rezervate."
+            footer_copyright: "&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile rezervate.",
+            footer_terms: "Termeni și Condiții"
         },
         en: {
             nav_brand: "AMIC",
@@ -272,7 +274,8 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_hq: "Headquarters",
             footer_pres: "President & Legal Representative: Causnean Aliona",
             footer_address: "Via San Mauro 3388, 47522 Cesena (FC)",
-            footer_copyright: "&copy; 2026 AMIC Association. Non-profit event. All rights reserved."
+            footer_copyright: "&copy; 2026 AMIC Association. Non-profit event. All rights reserved.",
+            footer_terms: "Terms and Conditions"
         }
     };
 
