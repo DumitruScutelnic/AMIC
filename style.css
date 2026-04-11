@@ -148,6 +148,18 @@ img {
   transform: translateY(-2px);
 }
 
+.btn-outline-primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: var(--bg-white);
+  transform: translateY(-2px);
+}
+
 /* --- Header & Navbar --- */
 .header {
   position: fixed;
