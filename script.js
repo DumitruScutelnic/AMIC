@@ -217,18 +217,21 @@ document.addEventListener('DOMContentLoaded', () => {
             act_food_desc: "Stand con cucina tradizionale moldava e specialità romagnole. Scopri il gusto autentico della Mămăligă e delle sarmale.",
             partners_title: "Sostenuto Da",
             partners_subtitle: "Ringraziamo i nostri partner che rendono possibile questo evento.",
-            partner_1: "Consolato Generale della Repubblica di Moldova a Milano",
-            partner_2: "Istituzioni Culturali",
+            partner_1: "Ambasciata della Repubblica di Moldova in Italia",
+            partner_2: "Consolato Generale della Repubblica di Moldova a Milano",
             partner_3: "ONG della Diaspora",
             partner_4: "Autorità Locali",
             partner_5: "Associazione \"Dante Alighieri\", Cesena",
             partner_6: "Associazione LA SCACCHIERA DI ONNON",
-            partner_7: "Il Gelatino",
-            partner_8: "CSI FORLÌ",
-            partner_9: "Trenino delle stelle",
-            partner_10: "Consolato Generale della Repubblica di Moldavia a Milano",
-            partner_11: "Progetto 11",
-            partner_12: "L'Aquilone di Iqbal",
+            partner_7: "CSI FORLÌ",
+            partner_8: "Trenino delle stelle",
+            partner_9: "Progetto 11",
+            partner_10: "L'Aquilone di Iqbal",
+            partner_11: "Rainbow",
+            partner_12: "La Botteghina",
+            partner_13: "Garage 51",
+            partner_14: "Il Gelatino",
+            partner_15: "Șezătoarea Bruxelles",
             footer_brand: "AMIC",
             footer_desc: "Organizzato da AMIC per promuovere l'amicizia, la cultura e le tradizioni moldave.",
             footer_contact: "Contatti",
@@ -286,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
         
         <p style="margin-top: 1rem;"><strong>Patronaj și Sprijin:</strong><br>
-        Consulatul General Milano al Republicii Moldova în Italia, Primăria Comunei Cesena</p>
+        Consulatul General al Republicii Moldova la Milano, Primăria Comunei Cesena</p>
     </div>
 
     <h3 style="color: var(--primary);">🕒 Programul Complet</h3>
@@ -393,18 +396,21 @@ document.addEventListener('DOMContentLoaded', () => {
             act_food_desc: "Standuri cu bucătărie tradițională moldovenească și specialități romagnole. Descoperă gustul autentic al mămăligii și al sarmalelor.",
             partners_title: "Susținut De",
             partners_subtitle: "Mulțumim partenerilor noștri care fac acest eveniment posibil.",
-            partner_1: "Consulatul General Milano al Republicii Moldova în Italia",
-            partner_2: "Instituții Culturale",
+            partner_1: "Ambasada Republicii Moldova în Italia",
+            partner_2: "Consulatul General al Republicii Moldova la Milano",
             partner_3: "ONG-uri din Diaspora",
             partner_4: "Autorități Locale",
             partner_5: "Asociația \"Dante Alighieri\", Cesena",
             partner_6: "Asociația LA SCACCHIERA DI ONNON",
-            partner_7: "Il Gelatino",
-            partner_8: "CSI FORLÌ",
-            partner_9: "Trenino delle stelle",
-            partner_10: "Consulatul General al Republicii Moldova la Milano",
-            partner_11: "Progetto 11",
-            partner_12: "L'Aquilone di Iqbal",
+            partner_7: "CSI FORLÌ",
+            partner_8: "Trenino delle stelle",
+            partner_9: "Progetto 11",
+            partner_10: "L'Aquilone di Iqbal",
+            partner_11: "Rainbow",
+            partner_12: "La Botteghina",
+            partner_13: "Garage 51",
+            partner_14: "Il Gelatino",
+            partner_15: "Șezătoarea Bruxelles",
             footer_brand: "AMIC",
             footer_desc: "Organizat de AMIC pentru a promova prietenia, cultura și tradițiile moldovenești.",
             footer_contact: "Contacte",
@@ -462,7 +468,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
         
         <p style="margin-top: 1rem;"><strong>Patronage and Support:</strong><br>
-        Consulate General of Milan of the Republic of Moldova in Italy, Municipality of Cesena</p>
+        Consulate General of the Republic of Moldova in Milan, Municipality of Cesena</p>
     </div>
 
     <h3 style="color: var(--primary);">🕒 Full Program</h3>
@@ -569,18 +575,21 @@ document.addEventListener('DOMContentLoaded', () => {
             act_food_desc: "Stalls with traditional Moldovan cuisine and Romangnole specialties. Discover the authentic taste of Mămăligă and sarmale.",
             partners_title: "Supported By",
             partners_subtitle: "We thank our partners who make this event possible.",
-            partner_1: "Consulate General of Milan of the Republic of Moldova in Italy",
-            partner_2: "Cultural Institutions",
+            partner_1: "Embassy of the Republic of Moldova in Italy",
+            partner_2: "Consulate General of the Republic of Moldova in Milan",
             partner_3: "Diaspora NGOs",
             partner_4: "Local Authorities",
             partner_5: "\"Dante Alighieri\" Association, Cesena",
             partner_6: "LA SCACCHIERA DI ONNON Association",
-            partner_7: "Il Gelatino",
-            partner_8: "CSI FORLÌ",
-            partner_9: "Trenino delle stelle",
-            partner_10: "Consulate General of the Republic of Moldova in Milan",
-            partner_11: "Progetto 11",
-            partner_12: "L'Aquilone di Iqbal",
+            partner_7: "CSI FORLÌ",
+            partner_8: "Trenino delle stelle",
+            partner_9: "Progetto 11",
+            partner_10: "L'Aquilone di Iqbal",
+            partner_11: "Rainbow",
+            partner_12: "La Botteghina",
+            partner_13: "Garage 51",
+            partner_14: "Il Gelatino",
+            partner_15: "Șezătoarea Bruxelles",
             footer_brand: "AMIC",
             footer_desc: "Organized by AMIC to promote Moldovan friendship, culture, and traditions.",
             footer_contact: "Contact",
