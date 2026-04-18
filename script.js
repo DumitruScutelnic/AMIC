@@ -143,7 +143,9 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_pres: "Presidente e Rappresentante Legale: Causnean Aliona",
             footer_address: "Via San Mauro 3388, 47522 Cesena (FC)",
             footer_copyright: "&copy; 2026 Associazione AMIC. Evento non-profit. Tutti i diritti riservati.",
-            footer_terms: "Termini e Condizioni"
+            footer_terms: "Termini e Condizioni",
+            organizer_label: "Organizzato da:",
+            footer_affiliated: "Affiliata a:"
         },
         ro: {
             nav_brand: "AMIC",
@@ -173,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
             post1_date: "18 aprilie 2026, între orele 10:00 – 12:00",
             post1_title: "Întâlnire de informare despre screeningul mamar",
             post1_desc: "O întâlnire importantă dedicată screeningului mamar, deschisă tuturor femeilor din teritoriu pentru informare și orientare.",
-            post1_full: "<p>Asociația AMIC anunță cu plăcere că în data de 18 aprilie, între orele 10:00 și 12:00, în sala de ședințe a Spitalului din Cesenatico, va avea loc o întâlnire de informare dedicată screeningului mamar, organizată în colaborare cu Associazione Romagnola Ricerca Tumori.</p><p>Întâlnirea este adresată tuturor femeilor din teritoriu, cu o atenție specială pentru femeile străine care locuiesc în Italia, inclusiv pentru cele care, din diferite motive, nu reușesc să acceseze programele de screening mamar.</p><p>Va fi un moment important de informare, dialog și orientare, creat pentru a explica și a face cunoscut:</p><ul><li>ce este screeningul mamar</li><li>de ce este esențial pentru prevenție și diagnostic precoce</li><li>ce servicii există pe teritoriul nostru</li><li>cum pot fi sprijinite femeile în accesul la programele de protejare a sănătății</li></ul><p>Invitația este deschisă tuturor femeilor, fără nicio diferență, deoarece prevenția este un drept fundamental, iar sănătatea trebuie să fie accesibilă tuturor.</p><p>Prin această inițiativă, Asociația AMIC dorește să promoveze cultura prevenției, incluziunii și solidarității, astfel încât fiecare femeie să se simtă informată, în siguranță și sprijinită.</p><p>Vă așteptăm cu drag!<br>A avea grijă de propria sănătate este un gest de responsabilitate, conștientizare și iubire față de propria viață.</p><p><strong>Asociația AMIC</strong><br>Împreună pentru comunitate, sănătate și incluziune.</p>",
+            post1_full: "<p>Asociația AMIC anunță cu plăcere că în data de 18 aprilie, între orele 10:00 și 12:00, în sala de ședințe a Spitalului din Cesenatico, va avea loc o întâlnire de informare dedicată screeningului mamar, organizată în colaborare cu Associazione Romagnola Ricerca Tumori.</p><p>Întâlnirea este adresată tuturor femeilor din teritoriu, cu o atenție specială pentru femeile străine care locuiesc în Italia, inclusiv pentru cele care, din diferite motive, nu reușesc să acceseze programele de screening mamar.</p><p>Va fi un moment important de informare, dialog și orientare, creat pentru a explica și a face cunoscut:</p><ul><li>ce este screeningul mamar</li><li>de ce este esențial pentru prevenție și diagnostic precoce</li><li>ce servicii există pe teritoriul nostru</li><li>cum pot fi sprijinite femeile în accesul la programele de protejare a sănătății</li></ul><p>Invitația este deschisă tuturor femeilor, fără nicio diferență, deoarece prevenția este un drept fundamental, iar sănătatea trebuie să fie accesibilă tuturor. </p><p>Prin această inițiativă, Asociația AMIC dorește să promoveze cultura prevenției, incluziunii și solidarității, astfel încât fiecare femeie să se simtă informată, în siguranță și sprijinită.</p><p>Vă așteptăm cu drag!<br>A avea grijă de propria sănătate este un gest de responsabilitate, conștientizare și iubire față de propria viață.</p><p><strong>Asociația AMIC</strong><br>Împreună pentru comunitate, sănătate și incluziune.</p>",
             post2_date: "Martie 2026 | Oportunitate gratuită",
             post2_title: "Curs gratuit de orientare profesională pentru femei",
             post2_desc: "Un curs pentru femei și fete pentru a-și construi propriul proiect de viață, căuta oportunități profesionale și educație financiară.",
@@ -221,7 +223,9 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_pres: "Președinte și Reprezentant Legal: Causnean Aliona",
             footer_address: "Strada San Mauro 3388, 47522 Cesena (FC)",
             footer_copyright: "&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile rezervate.",
-            footer_terms: "Termeni și Condiții"
+            footer_terms: "Termeni și Condiții",
+            organizer_label: "Organizat de:",
+            footer_affiliated: "Afiliată la:"
         },
         en: {
             nav_brand: "AMIC",
@@ -299,7 +303,9 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_pres: "President & Legal Representative: Causnean Aliona",
             footer_address: "Via San Mauro 3388, 47522 Cesena (FC)",
             footer_copyright: "&copy; 2026 AMIC Association. Non-profit event. All rights reserved.",
-            footer_terms: "Terms and Conditions"
+            footer_terms: "Terms and Conditions",
+            organizer_label: "Organized by:",
+            footer_affiliated: "Affiliated with:"
         }
     };
 

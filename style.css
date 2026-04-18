@@ -850,6 +850,35 @@ img {
   margin-bottom: 0.5rem;
 }
 
+/* --- Organizer Badge --- */
+.organizer-badge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.organizer-badge span {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.organizer-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: var(--transition);
+}
+
+.organizer-logo-img:hover {
+  transform: scale(1.05);
+}
+
 @media screen and (max-width: 768px) {
   .timeline::after {
     left: 31px;
