@@ -91,14 +91,103 @@ document.addEventListener('DOMContentLoaded', () => {
             post0_date: "31 Maggio 2026 | Parco per Fabio, Cesena",
             post0_title: "DiasporaFest 2026 - Festival Internazionale dell'Amicizia",
             post0_desc: "La nuova edizione del DiasporaFest! Una giornata all'insegna di cultura, gastronomia e tradizioni moldave con ospiti speciali.",
-            post0_full: "<p>Siamo felicissimi di annunciare l'arrivo della nuova edizione del <strong>DiasporaFest - Festival Internazionale dell'Amicizia</strong>!</p><p>Il 31 Maggio 2026, presso il Parco per Fabio a Cesena, vi invitiamo a vivere un'esperienza unica che celebra le tradizioni, i sapori e la cultura della Repubblica di Moldova in un contesto di gioia e condivisione interculturale.</p><p>Cosa vi aspetta al Festival?</p><ul><li><strong>Spettacoli Musicali</strong>: Canti tradizionali e balli folkloristici eseguiti da artisti locali e della diaspora.</li><li><strong>Gastronomia Autentica</strong>: Stand gastronomici pronti a farvi assaporare la vera Mămăligă, sarmale, plăcinte e ottimi vini moldavi.</li><li><strong>Area Bimbi</strong>: Laboratori creativi e animazione dedicata ai più piccoli.</li><li><strong>Tornei Sportivi</strong>: Calcio, pallavolo e scacchi per celebrare l'amicizia anche nello sport.</li></ul><p>L'evento è organizzato dall'Associazione AMIC, con il patrocinio delle Istituzioni Locali e dell'Ambasciata della Repubblica di Moldova. Un ponte vibrante tra identità e integrazione che vi aspetta a braccia aperte!</p><p>👉 <strong>L'ingresso è libero e aperto a tutti!</strong> Segnate la data sul calendario, vi aspettiamo numerosi!<br><br>📝 <a href=\"https://forms.gle/5xVYXEEYi9rVX4yVA\" target=\"_blank\" style=\"color: var(--primary); font-weight: bold; text-decoration: underline;\">Registrati all'evento tramite questo form: https://forms.gle/5xVYXEEYi9rVX4yVA</a></p>",
+            post0_full: `
+<div class="post-hero-content">
+    <p style="font-size: 1.1rem; color: var(--secondary); font-weight: bold; text-transform: uppercase;">In occasione della Festa Internazionale dei Bambini — ingresso gratuito per tutti / intrare liberă.</p>
+    
+    <h3 style="margin-top: 2rem; color: var(--primary);">👥 Chi Siamo / Organizatori</h3>
+    <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
+        <p><strong>Organizzatore principale:</strong><br>
+        AMIC APS – Associazione dei Moldavi con Impatto Comunitario, Cesena (FC)<br>
+        Președinte: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
+        🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
+        
+        <p style="margin-top: 1rem;"><strong>Partner ufficiale:</strong><br>
+        ASD Cimbrișor – Verona (15 ani de activitate, 10+ concerte ed eventi)<br>
+        Președinte: Lucia Zupcu</p>
+        
+        <p style="margin-top: 1rem;"><strong>Partner artistici:</strong><br>
+        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
+        
+        <p style="margin-top: 1rem;"><strong>Partner istituzionali:</strong><br>
+        Ambasciata della Repubblica di Moldova in Italia, Comune di Cesena</p>
+    </div>
+
+    <h3 style="color: var(--primary);">🕒 Il Programma Completo (Programul)</h3>
+    <div class="program-timeline" style="margin-bottom: 2rem;">
+        <style>
+            .pg-item { display: flex; padding: 1rem 0; border-bottom: 1px solid #eee; }
+            .pg-time { min-width: 130px; font-weight: bold; color: var(--secondary); }
+            .pg-desc { flex: 1; }
+            @media(max-width: 600px) { .pg-item { flex-direction: column; } .pg-time { margin-bottom: 0.5rem; } }
+            details { background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary); }
+            summary { font-weight: bold; cursor: pointer; color: var(--primary); outline: none; }
+            details[open] summary ~ * { animation: fadeIn 0.3s ease-in-out; }
+            .social-share { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+            .share-btn { padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; text-decoration: none; color: white; display: inline-block; }
+        </style>
+        <div class="pg-item"><div class="pg-time">07:00 – 09:00</div><div class="pg-desc">Arrivo staff, allestimento, posizionamento food truck</div></div>
+        <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturgia / momento spirituale – accoglienza partecipanti</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Apertura ufficiale</strong> – saluti istituzionali, presentazione organizzatori e partner</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Area Bambini</strong>: animazione, laboratori creativi, pittura sul viso, spettacolo magia e clown, "Premio Il Sorriso dell'Amicizia"</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Tornei sportivi – Cupa Prieteniei</strong>: calcio, pallavolo, scacchi, lotta libera</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Area Food</strong> attiva – cucina moldava, romena e italiana. Picnic familii.</div></div>
+        <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Musica soft e ambient</div></div>
+        <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lancio del libro</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spettacoli folcloristici</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Pausa tecnica</div></div>
+        <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Concerto serale</strong> – Ion Paladi (artista della Repubblica di Moldova) + Chef Basarabean (band musicale tradizionale)</div></div>
+        <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Saluti finali, ringraziamenti, invito all'edizione 2027</div></div>
+        <div class="pg-item"><div class="pg-time">23:00 – 01:00</div><div class="pg-desc">Smontaggio e pulizia</div></div>
+    </div>
+
+    <h3 style="color: var(--primary);">💖 Donazione Volontaria (Donație Benevolă)</h3>
+    <p>Il festival è <strong>completamente gratuito per tutti</strong>. Per aiutarci a coprire i costi non finanziati (sicurezza, affitto suolo, igienizzazione), verrà proposta una <strong>donazione volontaria di 5–10€</strong>. L'eventuale surplus sarà donato a un'associazione di beneficenza in Repubblica di Moldova.</p>
+
+    <h3 style="color: var(--primary); margin-top: 2rem;">📍 Mappa e Indicazioni (Cum ajungi?)</h3>
+    <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h3 style="color: var(--primary);">🤔 FAQ - Domande Frequenti</h3>
+    <details>
+        <summary>Come arrivo al Parco per Fabio?</summary>
+        <p style="margin-top:0.5rem">Il parco si trova a Cesena. Usa la mappa per attivare il navigatore sul tuo smartphone.</p>
+    </details>
+    <details>
+        <summary>C'è parcheggio?</summary>
+        <p style="margin-top:0.5rem">Sì, sono disponibili vari parcheggi gratuiti nelle vie limitrofe al parco. Arriva presto!</p>
+    </details>
+    <details>
+        <summary>Posso portare i bambini?</summary>
+        <p style="margin-top:0.5rem">Certo! L'intero evento è pensato per le famiglie e ci sarà una vasta <strong>Area Bambini</strong>.</p>
+    </details>
+    <details>
+        <summary>Cum mă pot înscrie la turneele sportive?</summary>
+        <p style="margin-top:0.5rem">Per partecipare ai tornei sportivi (Cupa Prieteniei) contatta l'organizzazione la mattina dell'evento.</p>
+    </details>
+
+    <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Condividi l'evento e porta la tua famiglia!</p>
+        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPILA IL FORM DI PREISCRIZIONE</a>
+        
+        <div style="font-size: 0.9rem; opacity: 0.9;">
+            #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
+        </div>
+        
+        <div class="social-share" style="justify-content: center; margin-top: 1.5rem;">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://associazione-amic.it" target="_blank" class="share-btn" style="background: #1877F2;">📘 Condividi su Facebook</a>
+            <a href="https://api.whatsapp.com/send?text=Vieni%20al%20DiasporaFest%202026!%20Scopri%20di%20pi%C3%B9%20su%20https://associazione-amic.it" target="_blank" class="share-btn" style="background: #25D366;">🟢 Invia su WhatsApp</a>
+        </div>
+    </div>
+</div>`,
             post1_date: "18 aprile 2026, dalle ore 10:00 alle ore 12:00",
             post1_title: "Incontro di sensibilizzazione sullo screening mammografico",
             post1_desc: "Un importante incontro dedicato allo screening mammografico, aperto a tutte le donne del territorio per informazione e orientamento.",
-            post1_full: "<p>L’Associazione AMIC informa con piacere che il giorno 18 aprile, dalle ore 10:00 alle ore 12:00, presso la sala riunioni dell’Ospedale di Cesenatico, si terrà un importante incontro di sensibilizzazione dedicato allo screening mammografico, in collaborazione con l’Associazione Romagnola Ricerca Tumori.</p><p>L’incontro è rivolto a tutte le donne del territorio, con un’attenzione particolare alle donne straniere presenti in Italia, comprese coloro che, per vari motivi, non riescono ad accedere facilmente ai percorsi di screening mammografico.</p><p>Sarà un momento prezioso di informazione, ascolto e orientamento, pensato per far conoscere meglio:</p><ul><li>che cos’è lo screening mammografico</li><li>perché è fondamentale per la prevenzione e la diagnosi precoce</li><li>quali possibilità esistono sul territorio</li><li>come accompagnare e sostenere le donne nell’accesso ai percorsi di tutela della salute</li></ul><p>L’invito è aperto a tutte le donne, senza distinzione, perché la prevenzione è un diritto fondamentale e la salute deve essere accessibile a tutte.</p><p>Come Associazione AMIC desideriamo promuovere una cultura della prevenzione, dell’inclusione e della vicinanza, affinché ogni donna possa sentirsi informata, accolta e sostenuta.</p><p>Vi aspettiamo numerose.<br>Prendersi cura di sé è un gesto di forza, consapevolezza e amore verso la propria vita.</p><p><strong>Associazione AMIC</strong><br>Insieme per la comunità, la salute e l’inclusione.</p>",
+            post1_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZZATO DA: ARRT e ASL ROMAGNA</p><p>L’Associazione AMIC informa con piacere che il giorno 18 aprile, dalle ore 10:00 alle ore 12:00, presso la sala riunioni dell’Ospedale di Cesenatico, si terrà un importante incontro di sensibilizzazione dedicato allo screening mammografico, in collaborazione con l’Associazione Romagnola Ricerca Tumori.</p><p>L’incontro è rivolto a tutte le donne del territorio, con un’attenzione particolare alle donne straniere presenti in Italia, comprese coloro che, per vari motivi, non riescono ad accedere facilmente ai percorsi di screening mammografico.</p><p>Sarà un momento prezioso di informazione, ascolto e orientamento, pensato per far conoscere meglio:</p><ul><li>che cos’è lo screening mammografico</li><li>perché è fondamentale per la prevenzione e la diagnosi precoce</li><li>quali possibilità esistono sul territorio</li><li>come accompagnare e sostenere le donne nell’accesso ai percorsi di tutela della salute</li></ul><p>L’invito è aperto a tutte le donne, senza distinzione, perché la prevenzione è un diritto fondamentale e la salute deve essere accessibile a tutte.</p><p>Come Associazione AMIC desideriamo promuovere una cultura della prevenzione, dell’inclusione e della vicinanza, affinché ogni donna possa sentirsi informata, accolta e sostenuta.</p><p>Vi aspettiamo numerose.<br>Prendersi cura di sé è un gesto di forza, consapevolezza e amore verso la propria vita.</p><p><strong>Associazione AMIC</strong><br>Insieme per la comunità, la salute e l’inclusione.</p>",
             post2_date: "Marzo 2026 | Opportunità gratuita",
             post2_title: "Percorso gratuito di orientamento al lavoro per donne",
-            post2_full: "<p>L’Associazione AMIC, in collaborazione con Associazione Apeiron Cesena, invita tutte le donne straniere e le donne del territorio a partecipare ad un percorso gratuito di orientamento al lavoro, ricerca di opportunità professionali ed educazione finanziaria.</p><p>Il percorso è pensato in particolare per donne e ragazze che desiderano costruire il proprio progetto di vita, rafforzare la propria autonomia e ricevere un accompagnamento concreto per entrare o rientrare nel mondo del lavoro.</p><p>💡 Il corso è completamente gratuito ed è organizzato con il supporto della Regione Emilia-Romagna e delle realtà del territorio.</p><p>È un’occasione importante per:</p><ul><li>acquisire strumenti utili per la ricerca del lavoro</li><li>rafforzare la propria indipendenza economica</li><li>conoscere meglio le opportunità presenti sul territorio</li><li>creare una rete di sostegno tra donne</li></ul><p>📩 Per tutte le informazioni e per iscriversi è possibile consultare la locandina con i contatti.</p><p>Come associazione crediamo molto nella solidarietà tra donne e nella forza della comunità. Se conoscete donne o ragazze a cui potrebbe essere utile questo percorso, condividete questa opportunità.</p><p>Insieme possiamo creare più opportunità, più autonomia e più futuro per tutte.</p><p><strong>Associazione AMIC</strong></p>",
+            post2_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZZATO DA: Apeiron</p><p>L’Associazione AMIC, in collaborazione con Associazione Apeiron Cesena, invita tutte le donne straniere e le donne del territorio a partecipare ad un percorso gratuito di orientamento al lavoro, ricerca di opportunità professionali ed educazione finanziaria.</p><p>Il percorso è pensato in particolare per donne e ragazze che desiderano costruire il proprio progetto di vita, rafforzare la propria autonomia e ricevere un accompagnamento concreto per entrare o rientrare nel mondo del lavoro.</p><p>💡 Il corso è completamente gratuito ed è organizzato con il supporto della Regione Emilia-Romagna e delle realtà del territorio.</p><p>È un’occasione importante per:</p><ul><li>acquisire strumenti utili per la ricerca del lavoro</li><li>rafforzare la propria indipendenza economica</li><li>conoscere meglio le opportunità presenti sul territorio</li><li>creare una rete di sostegno tra donne</li></ul><p>📩 Per tutte le informazioni e per iscriversi è possibile consultare la locandina con i contatti.</p><p>Come associazione crediamo molto nella solidarietà tra donne e nella forza della comunità. Se conoscete donne o ragazze a cui potrebbe essere utile questo percorso, condividete questa opportunità.</p><p>Insieme possiamo creare più opportunità, più autonomia e più futuro per tutte.</p><p><strong>Associazione AMIC</strong></p>",
             post3_date: "2 maggio 2026, Ore 16:00",
             post3_title: "Evento culturale dedicato a Radmila Popovici",
             post3_full: "<p>L’Associazione Moldavi con Impatto Comunitario (AMIC) è lieta di invitarvi a un evento culturale speciale a Cesena, dedicato alla poetessa Radmila Popovici.</p><p>📅 2 maggio 2026<br>🕓 Ore 16:00<br>📍 Spazio Cesuola, Via Ponte Abbadesse 451, Cesena</p><p>📚 Durante l’incontro saranno presentati i volumi:</p><ul><li>📘 &ldquo;L’acqua che si beve le mani&rdquo;</li><li>📙 &ldquo;Nonna Liuba la sapientissima&rdquo;</li></ul><p>Sarà un pomeriggio di poesia, dialogo ed emozione, un’occasione per incontrarsi, conoscersi e costruire ponti tra culture.</p><p>📖 In questa occasione, AMIC donerà un kit di libri alla Biblioteca Malatestiana, contribuendo ad arricchire la sezione in lingua romena, in collaborazione con il Comune di Cesena.</p><p>🌍 Evento aperto a tutta la comunità.<br>Vi aspettiamo con grande piacere! 💛</p>",
@@ -151,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_copyright: "&copy; 2026 Associazione AMIC. Evento non-profit. Tutti i diritti riservati.",
             footer_terms: "Termini e Condizioni",
             organizer_label: "Organizzato da:",
-            footer_affiliated: "Affiliata a:"
+            footer_affiliated: "Affiliata a Arci"
         },
         ro: {
             nav_brand: "AMIC",
@@ -177,14 +266,103 @@ document.addEventListener('DOMContentLoaded', () => {
             post0_date: "31 Mai 2026 | Parco per Fabio, Cesena",
             post0_title: "DiasporaFest 2026 - Festivalul Internațional al Prieteniei",
             post0_desc: "Noua ediție a DiasporaFest! O zi dedicată culturii, gastronomiei și tradițiilor moldovenești alături de invitați speciali.",
-            post0_full: "<p>Suntem extrem de bucuroși să anunțăm sosirea noii ediții <strong>DiasporaFest - Festivalul Internațional al Prieteniei</strong>!</p><p>Pe 31 Mai 2026, la Parco per Fabio din Cesena, vă invităm să trăiți o experiență unică ce sărbătorește tradițiile, aromele și cultura Republicii Moldova într-un context de bucurie și schimb intercultural.</p><p>Ce vă așteaptă la Festival?</p><ul><li><strong>Spectacole Muzicale</strong>: Cântece tradiționale și dansuri folclorice interpretate de artiști locali și din diasporă.</li><li><strong>Gastronomie Autentică</strong>: Standuri gata să vă ofere adevărata Mămăligă, sarmale, plăcinte și vinuri moldovenești de excepție.</li><li><strong>Zona Copiilor</strong>: Ateliere creative și animație dedicată celor mici.</li><li><strong>Turnee Sportive</strong>: Fotbal, volei și șah pentru a celebra prietenia prin sport.</li></ul><p>Evenimentul este organizat de Asociația AMIC, cu patronajul Instituțiilor Locale și al Ambasadei Republicii Moldova. Un pod vibrant între identitate și integrare care vă așteaptă cu brațele deschise!</p><p>👉 <strong>Intrarea este liberă și deschisă tuturor!</strong> Notați data în calendar, vă așteptăm cu drag!<br><br>📝 <a href=\"https://forms.gle/5xVYXEEYi9rVX4yVA\" target=\"_blank\" style=\"color: var(--primary); font-weight: bold; text-decoration: underline;\">Înregistrați-vă la eveniment prin acest formular: https://forms.gle/5xVYXEEYi9rVX4yVA</a></p>",
+            post0_full: `
+<div class="post-hero-content">
+    <p style="font-size: 1.1rem; color: var(--secondary); font-weight: bold; text-transform: uppercase;">Cu ocazia Zilei Internaționale a Copilului — intrare liberă pentru toți.</p>
+    
+    <h3 style="margin-top: 2rem; color: var(--primary);">👥 Cine Suntem / Organizatori</h3>
+    <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
+        <p><strong>Organizator principal:</strong><br>
+        AMIC APS – Asociația Moldovenilor cu Impact Comunitar, Cesena (FC)<br>
+        Președinte: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
+        🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
+        
+        <p style="margin-top: 1rem;"><strong>Partener oficial:</strong><br>
+        ASD Cimbrișor – Verona (15 ani de activitate, peste 10 concerte și evenimente)<br>
+        Președinte: Lucia Zupcu</p>
+        
+        <p style="margin-top: 1rem;"><strong>Parteneri artistici:</strong><br>
+        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
+        
+        <p style="margin-top: 1rem;"><strong>Parteneri instituționali:</strong><br>
+        Ambasada Republicii Moldova în Italia, Primăria Comunei Cesena</p>
+    </div>
+
+    <h3 style="color: var(--primary);">🕒 Programul Complet</h3>
+    <div class="program-timeline" style="margin-bottom: 2rem;">
+        <style>
+            .pg-item { display: flex; padding: 1rem 0; border-bottom: 1px solid #eee; }
+            .pg-time { min-width: 130px; font-weight: bold; color: var(--secondary); }
+            .pg-desc { flex: 1; }
+            @media(max-width: 600px) { .pg-item { flex-direction: column; } .pg-time { margin-bottom: 0.5rem; } }
+            details { background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary); }
+            summary { font-weight: bold; cursor: pointer; color: var(--primary); outline: none; }
+            details[open] summary ~ * { animation: fadeIn 0.3s ease-in-out; }
+            .social-share { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+            .share-btn { padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; text-decoration: none; color: white; display: inline-block; }
+        </style>
+        <div class="pg-item"><div class="pg-time">07:00 – 09:00</div><div class="pg-desc">Sosirea staff-ului, amenajare, poziționare food truck</div></div>
+        <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturghie / moment spiritual – primirea participanților</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Deschidere oficială</strong> – saluturi instituționale, prezentarea organizatorilor și partenerilor</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Zona Copiilor</strong>: animație, ateliere creative, face painting, spectacol de magie și clovni, "Premiul Zâmbetul Prieteniei"</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Turnee sportive – Cupa Prieteniei</strong>: fotbal, volei, șah, lupte libere</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Zona Food</strong> activă – bucătărie moldovenească, românească și italiană. Picnic în familie.</div></div>
+        <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Muzică de fundal și relaxare</div></div>
+        <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lansare de carte</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spectacole folclorice</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Pauză tehnică</div></div>
+        <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Concert de seară</strong> – Ion Paladi (Artist al Poporului din Republica Moldova) + Chef Basarabean (taraf tradițional)</div></div>
+        <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Saluturi finale, mulțumiri, invitație pentru ediția din 2027</div></div>
+        <div class="pg-item"><div class="pg-time">23:00 – 01:00</div><div class="pg-desc">Demontare și curățenie</div></div>
+    </div>
+
+    <h3 style="color: var(--primary);">💖 Donație Benevolă</h3>
+    <p>Festivalul este <strong>absolut gratuit pentru toți</strong>. Pentru a ne ajuta să acoperim costurile logistice nefinanțate (securitate, chirie teren, igienizare), vă propunem o <strong>donație benevolă de 5–10€</strong>. Orice surplus va fi donat unei asociații de caritate din Republica Moldova. Vă mulțumim din suflet!</p>
+
+    <h3 style="color: var(--primary); margin-top: 2rem;">📍 Hartă și Indicații (Cum ajungi?)</h3>
+    <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h3 style="color: var(--primary);">🤔 FAQ - Întrebări Frecvente</h3>
+    <details>
+        <summary>Cum ajung la Parco per Fabio?</summary>
+        <p style="margin-top:0.5rem">Parcul este în Cesena. Folosește harta de mai sus pentru a activa navigația pe telefon. Există stații de autobuz în apropiere cu legătură spre centru.</p>
+    </details>
+    <details>
+        <summary>Există parcare?</summary>
+        <p style="margin-top:0.5rem">Da, sunt disponibile parcări gratuite pe străzile din jurul parcului. Vă recomandăm să veniți devreme!</p>
+    </details>
+    <details>
+        <summary>Pot veni cu copiii?</summary>
+        <p style="margin-top:0.5rem">Absolut! Întregul eveniment este gândit pentru familii și va exista o <strong>Zonă a Copiilor</strong> amenajată special.</p>
+    </details>
+    <details>
+        <summary>Cum mă pot înscrie la turneele sportive?</summary>
+        <p style="margin-top:0.5rem">Pentru a participa la „Cupa Prieteniei” vă rugăm să completați formularul de înregistrare sau să contactați organizatorii direct la fața locului dimineața devreme.</p>
+    </details>
+
+    <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Distribuie evenimentul și vino cu familia!</p>
+        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPLETEAZĂ FORMULARUL DE ÎNREGISTRARE</a>
+        
+        <div style="font-size: 0.9rem; opacity: 0.9;">
+            #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
+        </div>
+        
+        <div class="social-share" style="justify-content: center; margin-top: 1.5rem;">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://associazione-amic.it" target="_blank" class="share-btn" style="background: #1877F2;">📘 Distribuie pe Facebook</a>
+            <a href="https://api.whatsapp.com/send?text=Te%20a%C8%99tept%20la%20DiasporaFest%202026!%20Detalii%20pe%20https://associazione-amic.it" target="_blank" class="share-btn" style="background: #25D366;">🟢 Trimite pe WhatsApp</a>
+        </div>
+    </div>
+</div>`,
             post1_date: "18 aprilie 2026, între orele 10:00 – 12:00",
             post1_title: "Întâlnire de informare despre screeningul mamar",
             post1_desc: "O întâlnire importantă dedicată screeningului mamar, deschisă tuturor femeilor din teritoriu pentru informare și orientare.",
-            post1_full: "<p>Asociația AMIC anunță cu plăcere că în data de 18 aprilie, între orele 10:00 și 12:00, în sala de ședințe a Spitalului din Cesenatico, va avea loc o întâlnire de informare dedicată screeningului mamar, organizată în colaborare cu Associazione Romagnola Ricerca Tumori.</p><p>Întâlnirea este adresată tuturor femeilor din teritoriu, cu o atenție specială pentru femeile străine care locuiesc în Italia, inclusiv pentru cele care, din diferite motive, nu reușesc să acceseze programele de screening mamar.</p><p>Va fi un moment important de informare, dialog și orientare, creat pentru a explica și a face cunoscut:</p><ul><li>ce este screeningul mamar</li><li>de ce este esențial pentru prevenție și diagnostic precoce</li><li>ce servicii există pe teritoriul nostru</li><li>cum pot fi sprijinite femeile în accesul la programele de protejare a sănătății</li></ul><p>Invitația este deschisă tuturor femeilor, fără nicio diferență, deoarece prevenția este un drept fundamental, iar sănătatea trebuie să fie accesibilă tuturor. </p><p>Prin această inițiativă, Asociația AMIC dorește să promoveze cultura prevenției, incluziunii și solidarității, astfel încât fiecare femeie să se simtă informată, în siguranță și sprijinită.</p><p>Vă așteptăm cu drag!<br>A avea grijă de propria sănătate este un gest de responsabilitate, conștientizare și iubire față de propria viață.</p><p><strong>Asociația AMIC</strong><br>Împreună pentru comunitate, sănătate și incluziune.</p>",
+            post1_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZAT DE: ARRT și ASL ROMAGNA</p><p>Asociația AMIC anunță cu plăcere că în data de 18 aprilie, între orele 10:00 și 12:00, în sala de ședințe a Spitalului din Cesenatico, va avea loc o întâlnire de informare dedicată screeningului mamar, organizată în colaborare cu Associazione Romagnola Ricerca Tumori.</p><p>Întâlnirea este adresată tuturor femeilor din teritoriu, cu o atenție specială pentru femeile străine care locuiesc în Italia, inclusiv pentru cele care, din diferite motive, nu reușesc să acceseze programele de screening mamar.</p><p>Va fi un moment important de informare, dialog și orientare, creat pentru a explica și a face cunoscut:</p><ul><li>ce este screeningul mamar</li><li>de ce este esențial pentru prevenție și diagnostic precoce</li><li>ce servicii există pe teritoriul nostru</li><li>cum pot fi sprijinite femeile în accesul la programele de protejare a sănătății</li></ul><p>Invitația este deschisă tuturor femeilor, fără nicio diferență, deoarece prevenția este un drept fundamental, iar sănătatea trebuie să fie accesibilă tuturor. </p><p>Prin această inițiativă, Asociația AMIC dorește să promoveze cultura prevenției, incluziunii și solidarității, astfel încât fiecare femeie să se simtă informată, în siguranță și sprijinită.</p><p>Vă așteptăm cu drag!<br>A avea grijă de propria sănătate este un gest de responsabilitate, conștientizare și iubire față de propria viață.</p><p><strong>Asociația AMIC</strong><br>Împreună pentru comunitate, sănătate și incluziune.</p>",
             post2_date: "Martie 2026 | Oportunitate gratuită",
             post2_title: "Curs gratuit de orientare profesională pentru femei",
-            post2_full: "<p>Asociația AMIC, în colaborare cu Asociația Apeiron Cesena, invită toate femeile străine și femeile din teritoriu să participe la un curs gratuit de orientare în carieră, căutare de oportunități profesionale și educație financiară.</p><p>Cursul este conceput în special pentru femeile și fetele care doresc să-și construiască propriul proiect de viață, să-și consolideze autonomia și să primească un sprijin concret pentru a intra sau a reintra în câmpul muncii.</p><p>💡 Cursul este complet gratuit și este organizat cu sprijinul Regiunii Emilia-Romagna și al organizațiilor locale.</p><p>Este o oportunitate importantă pentru:</p><ul><li>a dobândi instrumente utile pentru căutarea unui loc de muncă</li><li>a vă consolida independența financiară</li><li>a cunoaște mai bine oportunitățile din zonă</li><li>a crea o rețea de sprijin între femei</li></ul><p>📩 Pentru toate informațiile și pentru a vă înscrie, puteți consulta afișul cu datele de contact.</p><p>Ca asociație, credem cu tărie în solidaritatea dintre femei și în forța comunității. Dacă cunoașteți femei sau fete cărora le-ar putea fi de folos acest parcurs, vă rugăm să împărtășiți această oportunitate.</p><p>Împreună putem crea mai multe oportunități, mai multă autonomie și mai mult viitor pentru toate.</p><p><strong>Asociația AMIC</strong></p>",
+            post2_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZAT DE: Apeiron</p><p>Asociația AMIC, în colaborare cu Asociația Apeiron Cesena, invită toate femeile străine și femeile din teritoriu să participe la un curs gratuit de orientare în carieră, căutare de oportunități profesionale și educație financiară.</p><p>Cursul este conceput în special pentru femeile și fetele care doresc să-și construiască propriul proiect de viață, să-și consolideze autonomia și să primească un sprijin concret pentru a intra sau a reintra în câmpul muncii.</p><p>💡 Cursul este complet gratuit și este organizat cu sprijinul Regiunii Emilia-Romagna și al organizațiilor locale.</p><p>Este o oportunitate importantă pentru:</p><ul><li>a dobândi instrumente utile pentru căutarea unui loc de muncă</li><li>a vă consolida independența financiară</li><li>a cunoaște mai bine oportunitățile din zonă</li><li>a crea o rețea de sprijin între femei</li></ul><p>📩 Pentru toate informațiile și pentru a vă înscrie, puteți consulta afișul cu datele de contact.</p><p>Ca asociație, credem cu tărie în solidaritatea dintre femei și în forța comunității. Dacă cunoașteți femei sau fete cărora le-ar putea fi de folos acest parcurs, vă rugăm să împărtășiți această oportunitate.</p><p>Împreună putem crea mai multe oportunități, mai multă autonomie și mai mult viitor pentru toate.</p><p><strong>Asociația AMIC</strong></p>",
             post3_date: "2 mai 2026, Ora 16:00",
             post3_title: "Eveniment cultural dedicat poetei Radmila Popovici",
             post3_full: "<p>Asociația Moldovenilor cu Impact Comunitar (AMIC) are deosebita plăcere de a vă invita la un eveniment cultural special în Cesena, dedicat poetei Radmila Popovici.</p><p>📅 2 mai 2026<br>🕓 Ora 16:00<br>📍 Spazio Cesuola, Via Ponte Abbadesse 451, Cesena</p><p>📚 În cadrul evenimentului vor fi prezentate volumele:</p><ul><li>📘 „Apa care își bea mâinile”</li><li>📙 „Bunica Liuba atotștiutoarea”</li></ul><p>Va fi o după-amiază de poezie, dialog și emoție, un prilej de întâlnire și apropiere între oameni și culturi.</p><p>📖 Cu această ocazie, AMIC va dona un set de cărți către Biblioteca Malatestiana, contribuind la îmbogățirea secțiunii de limbă română, în colaborare cu Primăria Cesena.</p><p>🌍 Eveniment deschis întregii comunități.<br>Vă așteptăm cu drag! 💛</p>",
@@ -237,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_copyright: "&copy; 2026 Asociația AMIC. Eveniment non-profit. Toate drepturile rezervate.",
             footer_terms: "Termeni și Condiții",
             organizer_label: "Organizat de:",
-            footer_affiliated: "Afiliată la:"
+            footer_affiliated: "Afiliată la Arci"
         },
         en: {
             nav_brand: "AMIC",
@@ -263,14 +441,103 @@ document.addEventListener('DOMContentLoaded', () => {
             post0_date: "May 31, 2026 | Parco per Fabio, Cesena",
             post0_title: "DiasporaFest 2026 - International Friendship Festival",
             post0_desc: "The new edition of DiasporaFest! A day filled with Moldovan culture, gastronomy, and traditions featuring special guests.",
-            post0_full: "<p>We are thrilled to announce the arrival of the new edition of <strong>DiasporaFest - International Friendship Festival</strong>!</p><p>On May 31, 2026, at Parco per Fabio in Cesena, we invite you to experience a unique event celebrating the traditions, flavors, and culture of the Republic of Moldova in a context of joy and intercultural sharing.</p><p>What awaits you at the Festival?</p><ul><li><strong>Musical Performances</strong>: Traditional songs and folk dances performed by local and diaspora artists.</li><li><strong>Authentic Gastronomy</strong>: Food stalls ready to let you taste genuine Mămăligă, sarmale, plăcinte, and excellent Moldovan wines.</li><li><strong>Kids Area</strong>: Creative workshops and entertainment dedicated to children.</li><li><strong>Sports Tournaments</strong>: Football, volleyball, and chess to celebrate friendship through sport.</li></ul><p>The event is organized by the AMIC Association, with the patronage of Local Institutions and the Embassy of the Republic of Moldova. A vibrant bridge between identity and integration awaits you with open arms!</p><p>👉 <strong>Admission is free and open to everyone!</strong> Save the date, we look forward to seeing you there!<br><br>📝 <a href=\"https://forms.gle/5xVYXEEYi9rVX4yVA\" target=\"_blank\" style=\"color: var(--primary); font-weight: bold; text-decoration: underline;\">Register for the event using this form: https://forms.gle/5xVYXEEYi9rVX4yVA</a></p>",
+            post0_full: `
+<div class="post-hero-content">
+    <p style="font-size: 1.1rem; color: var(--secondary); font-weight: bold; text-transform: uppercase;">In celebration of International Children's Day — free entry for everyone.</p>
+    
+    <h3 style="margin-top: 2rem; color: var(--primary);">👥 Who We Are / Organizers</h3>
+    <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
+        <p><strong>Main Organizer:</strong><br>
+        AMIC APS – Association of Moldovans with Community Impact, Cesena (FC)<br>
+        President: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
+        🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
+        
+        <p style="margin-top: 1rem;"><strong>Official Partner:</strong><br>
+        ASD Cimbrișor – Verona (15 years of activity, 10+ concerts and events)<br>
+        President: Lucia Zupcu</p>
+        
+        <p style="margin-top: 1rem;"><strong>Artistic Partners:</strong><br>
+        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
+        
+        <p style="margin-top: 1rem;"><strong>Institutional Partners:</strong><br>
+        Embassy of the Republic of Moldova in Italy, Municipality of Cesena</p>
+    </div>
+
+    <h3 style="color: var(--primary);">🕒 Full Program</h3>
+    <div class="program-timeline" style="margin-bottom: 2rem;">
+        <style>
+            .pg-item { display: flex; padding: 1rem 0; border-bottom: 1px solid #eee; }
+            .pg-time { min-width: 130px; font-weight: bold; color: var(--secondary); }
+            .pg-desc { flex: 1; }
+            @media(max-width: 600px) { .pg-item { flex-direction: column; } .pg-time { margin-bottom: 0.5rem; } }
+            details { background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary); }
+            summary { font-weight: bold; cursor: pointer; color: var(--primary); outline: none; }
+            details[open] summary ~ * { animation: fadeIn 0.3s ease-in-out; }
+            .social-share { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+            .share-btn { padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; text-decoration: none; color: white; display: inline-block; }
+        </style>
+        <div class="pg-item"><div class="pg-time">07:00 – 09:00</div><div class="pg-desc">Staff arrival, setup, food truck positioning</div></div>
+        <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturgy / spiritual moment – welcoming participants</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Official Opening</strong> – institutional greetings, presentation of organizers and partners</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Kids Area</strong>: entertainment, creative workshops, face painting, magic show and clowns, "Friendship Smile Award"</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Sports Tournaments – Friendship Cup</strong>: football, volleyball, chess, freestyle wrestling</div></div>
+        <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Active Food Area</strong> – Moldovan, Romanian, and Italian cuisine. Family picnic.</div></div>
+        <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Soft and ambient music</div></div>
+        <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Book Launch</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Folklore Shows</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Technical break</div></div>
+        <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Evening Concert</strong> – Ion Paladi (People's Artist of the Republic of Moldova) + Chef Basarabean (traditional music band)</div></div>
+        <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Final greetings, thanks, invitation to the 2027 edition</div></div>
+        <div class="pg-item"><div class="pg-time">23:00 – 01:00</div><div class="pg-desc">Dismantling and cleaning</div></div>
+    </div>
+
+    <h3 style="color: var(--primary);">💖 Voluntary Donation</h3>
+    <p>The festival is <strong>completely free for everyone</strong>. To help us cover unfunded logistical costs (security, land rental, sanitization), we propose a <strong>voluntary donation of 5–10€</strong>. Any surplus will be donated to a charity association in the Republic of Moldova. Thank you!</p>
+
+    <h3 style="color: var(--primary); margin-top: 2rem;">📍 Map and Directions</h3>
+    <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h3 style="color: var(--primary);">🤔 FAQ - Frequently Asked Questions</h3>
+    <details>
+        <summary>How do I get to Parco per Fabio?</summary>
+        <p style="margin-top:0.5rem">The park is in Cesena. Use the map above to activate navigation on your phone. There are bus stops nearby connecting from the center.</p>
+    </details>
+    <details>
+        <summary>Is there parking?</summary>
+        <p style="margin-top:0.5rem">Yes, there are various free parking lots available in the streets around the park. We recommend arriving early!</p>
+    </details>
+    <details>
+        <summary>Can I bring children?</summary>
+        <p style="margin-top:0.5rem">Absolutely! The entire event is designed for families and there will be a large <strong>Kids Area</strong> set up.</p>
+    </details>
+    <details>
+        <summary>How can I register for the sports tournaments?</summary>
+        <p style="margin-top:0.5rem">To participate in the "Friendship Cup" please fill out the registration form or contact the organizers directly on-site early in the morning.</p>
+    </details>
+
+    <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Share the event and bring your family!</p>
+        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 FILL OUT THE PRE-REGISTRATION FORM</a>
+        
+        <div style="font-size: 0.9rem; opacity: 0.9;">
+            #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
+        </div>
+        
+        <div class="social-share" style="justify-content: center; margin-top: 1.5rem;">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://associazione-amic.it" target="_blank" class="share-btn" style="background: #1877F2;">📘 Share on Facebook</a>
+            <a href="https://api.whatsapp.com/send?text=Come%20to%20DiasporaFest%202026!%20Details%20at%20https://associazione-amic.it" target="_blank" class="share-btn" style="background: #25D366;">🟢 Send on WhatsApp</a>
+        </div>
+    </div>
+</div>`,
             post1_date: "April 18, 2026, from 10:00 AM to 12:00 PM",
             post1_title: "Breast Cancer Screening Awareness Meeting",
             post1_desc: "An important meeting dedicated to breast cancer screening, open to all women in the area for information and guidance.",
-            post1_full: "<p>The AMIC Association is pleased to inform you that on April 18, from 10:00 AM to 12:00 PM, an important awareness meeting dedicated to breast cancer screening will be held in the meeting room of the Cesenatico Hospital, in collaboration with the Romagna Tumor Research Association.</p><p>The meeting is aimed at all women in the area, with special attention to foreign women living in Italy, including those who, for various reasons, cannot easily access breast screening programs.</p><p>It will be a valuable moment of information, listening, and guidance, designed to raise awareness about:</p><ul><li>what breast screening is</li><li>why it is fundamental for prevention and early diagnosis</li><li>what opportunities exist in the area</li><li>how to accompany and support women in accessing health protection pathways</li></ul><p>The invitation is open to all women, without distinction, because prevention is a fundamental right and health must be accessible to everyone.</p><p>As the AMIC Association, we wish to promote a culture of prevention, inclusion, and closeness, so that every woman can feel informed, welcomed, and supported.</p><p>We look forward to seeing many of you.<br>Taking care of oneself is a gesture of strength, awareness, and love for one's life.</p><p><strong>AMIC Association</strong><br>Together for the community, health, and inclusion.</p>",
+            post1_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZED BY: ARRT and ASL ROMAGNA</p><p>The AMIC Association is pleased to inform you that on April 18, from 10:00 AM to 12:00 PM, an important awareness meeting dedicated to breast cancer screening will be held in the meeting room of the Cesenatico Hospital, in collaboration with the Romagna Tumor Research Association.</p><p>The meeting is aimed at all women in the area, with special attention to foreign women living in Italy, including those who, for various reasons, cannot easily access breast screening programs.</p><p>It will be a valuable moment of information, listening, and guidance, designed to raise awareness about:</p><ul><li>what breast screening is</li><li>why it is fundamental for prevention and early diagnosis</li><li>what opportunities exist in the area</li><li>how to accompany and support women in accessing health protection pathways</li></ul><p>The invitation is open to all women, without distinction, because prevention is a fundamental right and health must be accessible to everyone.</p><p>As the AMIC Association, we wish to promote a culture of prevention, inclusion, and closeness, so that every woman can feel informed, welcomed, and supported.</p><p>We look forward to seeing many of you.<br>Taking care of oneself is a gesture of strength, awareness, and love for one's life.</p><p><strong>AMIC Association</strong><br>Together for the community, health, and inclusion.</p>",
             post2_date: "March 2026 | Free Opportunity",
             post2_title: "Free Career Guidance Course for Women",
-            post2_full: "<p>The AMIC Association, in collaboration with the Apeiron Cesena Association, invites all foreign women and women from the area to participate in a free career guidance, professional opportunity search, and financial education course.</p><p>The course is designed in particular for women and girls who wish to build their life project, strengthen their autonomy, and receive concrete support to enter or re-enter the workforce.</p><p>💡 The course is completely free and is organized with the support of the Emilia-Romagna Region and local organizations.</p><p>It is an important opportunity to:</p><ul><li>acquire useful tools for job hunting</li><li>strengthen your financial independence</li><li>learn more about opportunities in the area</li><li>create a support network among women</li></ul><p>📩 For all information and to register, you can consult the flyer with the contact details.</p><p>As an association, we strongly believe in solidarity between women and the strength of the community. If you know women or girls who could benefit from this path, please share this opportunity.</p><p>Together we can create more opportunities, more autonomy, and more future for everyone.</p><p><strong>AMIC Association</strong></p>",
+            post2_full: "<p style=\"color: var(--secondary); font-weight: bold; text-transform: uppercase; margin-bottom: 1rem;\">ORGANIZED BY: Apeiron</p><p>The AMIC Association, in collaboration with the Apeiron Cesena Association, invites all foreign women and women from the area to participate in a free career guidance, professional opportunity search, and financial education course.</p><p>The course is designed in particular for women and girls who wish to build their life project, strengthen their autonomy, and receive concrete support to enter or re-enter the workforce.</p><p>💡 The course is completely free and is organized with the support of the Emilia-Romagna Region and local organizations.</p><p>It is an important opportunity to:</p><ul><li>acquire useful tools for job hunting</li><li>strengthen your financial independence</li><li>learn more about opportunities in the area</li><li>create a support network among women</li></ul><p>📩 For all information and to register, you can consult the flyer with the contact details.</p><p>As an association, we strongly believe in solidarity between women and the strength of the community. If you know women or girls who could benefit from this path, please share this opportunity.</p><p>Together we can create more opportunities, more autonomy, and more future for everyone.</p><p><strong>AMIC Association</strong></p>",
             post3_date: "May 2, 2026, 4:00 PM",
             post3_title: "Cultural event dedicated to Radmila Popovici",
             post3_full: "<p>The Moldovans with Community Impact Association (AMIC) is pleased to invite you to a special cultural event in Cesena, dedicated to the poet Radmila Popovici.</p><p>📅 May 2, 2026<br>🕓 4:00 PM<br>📍 Spazio Cesuola, Via Ponte Abbadesse 451, Cesena</p><p>📚 During the meeting, the following volumes will be presented:</p><ul><li>📘 \"The water that drinks its hands\"</li><li>📙 \"Grandma Liuba the all-knowing\"</li></ul><p>It will be an afternoon of poetry, dialogue, and emotion, an opportunity to meet, get to know each other, and build bridges between cultures.</p><p>📖 On this occasion, AMIC will donate a set of books to the Malatestiana Library, contributing to enriching the Romanian language section, in collaboration with the Municipality of Cesena.</p><p>🌍 Event open to the whole community.<br>We look forward to seeing you! 💛</p>",
@@ -323,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
             footer_copyright: "&copy; 2026 AMIC Association. Non-profit event. All rights reserved.",
             footer_terms: "Terms and Conditions",
             organizer_label: "Organized by:",
-            footer_affiliated: "Affiliated with:"
+            footer_affiliated: "Affiliated with Arci"
         }
     };
 
