@@ -144,33 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="color: var(--primary);">💖 Donazione Volontaria (Donație Benevolă)</h3>
     <p>Il festival è <strong>completamente gratuito per tutti</strong>. Per aiutarci a coprire i costi non finanziati (sicurezza, affitto suolo, igienizzazione), verrà proposta una <strong>donazione volontaria di 5–10€</strong>. L'eventuale surplus sarà donato a un'associazione di beneficenza in Repubblica di Moldova.</p>
 
-    <h3 style="color: var(--primary); margin-top: 2rem;">🏆 Tornei e Volantini Eventi (Demo Strategie)</h3>
-    <p>Di seguito puoi vedere entrambe le strategie per i flyer aggiuntivi.</p>
-    
-    <h4 style="margin-top: 1.5rem; margin-bottom: 1rem; color: var(--accent);">Strategia 1: Griglia con Lightbox</h4>
-    <div class="flyer-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-        <div class="flyer-thumb" data-src="images/posts/calcio.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/calcio.jpeg" alt="Locandina Calcio" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-        <div class="flyer-thumb" data-src="images/posts/NetGreen.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/NetGreen.jpeg" alt="Locandina Mammanet" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-    </div>
-
-    <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent);">Strategia 2: Fisarmonica (Espandibile)</h4>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Torneo di Calcio (Clicca per espandere)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/calcio.jpeg" alt="Locandina Calcio" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Torneo Mammanet - NetGreen (Clicca per espandere)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/NetGreen.jpeg" alt="Locandina Mammanet" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Mappa e Indicazioni (Cum ajungi?)</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -223,10 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
             post4_title: "Festa della Liberazione a Cesena - Comunità e Inclusione",
             post4_desc: "Un incontro speciale ai Giardini di Serravalle per celebrare la Festa della Liberazione uniti da cultura, tradizioni e condivisione.",
             post4_full: "<p>✨🌍 <strong>Cesena si incontra, Cesena si unisce</strong> 🌍✨</p><p>Sabato 25 aprile, alle ore 14:30, i Giardini di Serravalle a Cesena si trasformeranno in un luogo speciale, dove culture, tradizioni e persone si incontrano per celebrare insieme la Festa della Liberazione.</p><p>Sarà una giornata dedicata alla libertà, alla comunità e alla bellezza delle diversità che diventano ricchezza.<br>🌿 Un momento in cui tutte le comunità, tutte le culture e tutte le famiglie si raduneranno nello stesso spazio, unite dallo stesso valore: essere liberi, insieme.</p><p>🎶 Musica, colori, tradizioni e sorrisi accompagneranno questo pomeriggio speciale.</p><p>👨&zwj;👩&zwj;👧&zwj;👦 Un evento aperto a tutti, grandi e piccoli, dove ogni presenza conta e ogni cultura racconta una storia.</p><p>💛 Perché la libertà è ancora più forte quando viene condivisa.</p><p>📍 <strong>Dove:</strong> Giardini di Serravalle, Cesena<br>🕒 <strong>Quando:</strong> Sabato 25 aprile, ore 14:30</p><p>Vi aspettiamo per celebrare insieme, con il cuore aperto e lo spirito della comunità.</p><p><em>#25Aprile #Cesena #FestaDellaLiberazione #Comunità #Insieme #Inclusione #Tradizioni #Unità</em></p>",
-            post5_date: "23 aprile 2026 | Rimini",
-            post5_title: "Inaugurato a Rimini il Consolato Onorario della Repubblica di Moldova",
-            post5_desc: "Aperto a Rimini il nuovo Consolato Onorario per l'Emilia-Romagna, guidato dall'avvocato Nicoletta Gagliani, con servizi gratuiti per la comunità.",
-            post5_full: "<p>Giovedì 23 aprile 2026, la città di Rimini ha ospitato l'inaugurazione ufficiale del <strong>Consolato Onorario della Repubblica di Moldova per l’Emilia-Romagna</strong>. La cerimonia si è svolta alla presenza di numerose autorità, tra cui l'Ambasciatore <strong>Oleg Nica</strong> e il Console Generale a Milano <strong>Andrian Popescu</strong>, segnando un nuovo capitolo nel rafforzamento dei legami bilaterali tra Italia e Moldova a livello regionale.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">Cosa fa il nuovo Consolato Onorario?</h4><p>Il nuovo ufficio diplomatico, situato a Rimini e con competenza sulle province di Rimini e Forlì-Cesena, nasce per essere un punto di riferimento operativo e diretto per la numerosa comunità moldava residente. La nuova sede consolare si propone come un presidio attivo: tra i servizi a più grande impatto, lo studio offrirà <strong>servizi di consulenza legale completamente gratuita</strong> a favore dei cittadini moldavi, supportandone attivamente l'integrazione e la tutela.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">Chi è Nicoletta Gagliani?</h4><p>A guidare il Consolato è la dottoressa <strong>Nicoletta Gagliani</strong>, stimata avvocatessa del foro riminese. Nominata ufficialmente <em>Console Onorario della Repubblica di Moldova</em> a seguito del rilascio dell'Exequatur a Roma, l'Avv. Gagliani ha espresso la chiara volontà di trasformare il consolato in un vero e proprio ponte istituzionale.</p><p>Il suo obiettivo, in perfetta sintonia con le direttive dell'Ambasciata, è rafforzare e integrare i rapporti già solidi tra i due Paesi, stimolando opportunità di cooperazione in ambito turistico, lavorativo, economico, sociale e culturale.</p><p>A lei e a tutto il corpo consolare vanno i nostri migliori auguri di buon lavoro per questo importante traguardo al servizio della comunità!</p>",
             pe_btn: "Scopri di più",
             btn_donate: "Sostienici",
             hero_btn_register: "Iscriviti Online",
@@ -356,33 +325,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="color: var(--primary);">💖 Donație Benevolă</h3>
     <p>Festivalul este <strong>absolut gratuit pentru toți</strong>. Pentru a ne ajuta să acoperim costurile logistice nefinanțate (securitate, chirie teren, igienizare), vă propunem o <strong>donație benevolă de 5–10€</strong>. Orice surplus va fi donat unei asociații de caritate din Republica Moldova. Vă mulțumim din suflet!</p>
 
-    <h3 style="color: var(--primary); margin-top: 2rem;">🏆 Turnee și Flyere Evenimente (Demo Strategii)</h3>
-    <p>Mai jos puteți vedea ambele strategii pentru flyerele suplimentare.</p>
-    
-    <h4 style="margin-top: 1.5rem; margin-bottom: 1rem; color: var(--accent);">Strategia 1: Grilă cu Lightbox</h4>
-    <div class="flyer-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-        <div class="flyer-thumb" data-src="images/posts/calcio.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/calcio.jpeg" alt="Afiș Fotbal" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-        <div class="flyer-thumb" data-src="images/posts/NetGreen.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/NetGreen.jpeg" alt="Afiș Mammanet" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-    </div>
-
-    <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent);">Strategia 2: Acordeon (Extensibil)</h4>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Turneu de Fotbal (Click pentru detaliere)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/calcio.jpeg" alt="Afiș Fotbal" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Turneu Mammanet - NetGreen (Click pentru detaliere)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/NetGreen.jpeg" alt="Afiș Mammanet" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Hartă și Indicații (Cum ajungi?)</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -435,10 +377,6 @@ document.addEventListener('DOMContentLoaded', () => {
             post4_title: "Ziua Eliberării la Cesena – Comunitate și Incluziune",
             post4_desc: "O întâlnire specială în Grădinile Serravalle pentru a sărbători Ziua Eliberării uniți prin cultură, tradiții și împărtășire.",
             post4_full: "<p>✨🌍 <strong>Cesena se întâlnește, Cesena se unește</strong> 🌍✨</p><p>Sâmbătă, 25 aprilie, la ora 14:30, Grădinile Serravalle din Cesena se vor transforma într-un loc special, unde culturile, tradițiile și oamenii se întâlnesc pentru a sărbători împreună Ziua Eliberării (Festa della Liberazione).</p><p>Va fi o zi dedicată libertății, comunității și frumuseții diversității care devine bogăție.<br>🌿 Un moment în care toate comunitățile, toate culturile și toate familiile se vor aduna în același spațiu, unite de aceeași valoare: să fim liberi, împreună.</p><p>🎶 Muzica, culorile, tradițiile și zâmbetele vor însoți această după-amiază specială.</p><p>👨&zwj;👩&zwj;👧&zwj;👦 Un eveniment deschis tuturor, mari și mici, unde fiecare prezență contează și fiecare cultură spune o poveste.</p><p>💛 Pentru că libertatea este și mai puternică atunci când este împărtășită.</p><p>📍 <strong>Unde:</strong> Giardini di Serravalle, Cesena<br>🕒 <strong>Când:</strong> Sâmbătă 25 aprilie, ora 14:30</p><p>Vă așteptăm să sărbătorim împreună, cu inima deschisă și spirit comunitar.</p><p><em>#25Aprile #Cesena #FestaDellaLiberazione #Comunità #Insieme #Inclusione #Tradizioni #Unità</em></p>",
-            post5_date: "23 aprilie 2026 | Rimini",
-            post5_title: "Inaugurat la Rimini Consulatul Onorific al Republicii Moldova",
-            post5_desc: "Deschiderea noului Consulat Onorific pentru Emilia-Romagna, condus de avocata Nicoletta Gagliani, ce oferă servicii de consultanță gratuite comunității.",
-            post5_full: "<p>Joi, 23 aprilie 2026, orașul Rimini a găzduit inaugurarea oficială a <strong>Consulatului Onorific al Republicii Moldova pentru regiunea Emilia-Romagna</strong>. Ceremonia a avut loc în prezența a numeroși oficiali, printre care Ambasadorul <strong>Oleg Nica</strong> și Consulul General la Milano, <strong>Andrian Popescu</strong>, marcând un nou capitol în consolidarea legăturilor bilaterale dintre Italia și Moldova.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">Care este rolul noului Consulat Onorific?</h4><p>Noul birou diplomatic, situat în Rimini, cu competență pentru provinciile Rimini și Forlì-Cesena, a fost creat pentru a fi un punct de referință operațional pentru comunitatea moldovenească rezidentă. Printre cele mai importante inițiative în beneficiul direct al comunității, se numără oferirea de <strong>servicii de consultanță juridică complet gratuită</strong> pentru cetățenii moldoveni, sprijinind astfel protecția și integrarea lor pe teritoriul Italiei.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">Cine este Nicoletta Gagliani?</h4><p>Consulatul este condus de doamna <strong>Nicoletta Gagliani</strong>, o avocată de prestigiu din Rimini. Numită oficial <em>Consul Onorific al Republicii Moldova</em> în urma primirii Exequatur-ului la Roma, Av. Gagliani a subliniat clar intenția de a transforma consulatul într-o adevărată „punte” instituțională.</p><p>Principalul ei obiectiv, în perfectă armonie cu directivele Ambasadei, este consolidarea relațiilor deja solide dintre cele două țări, stimulând activ oportunități noi de cooperare pe plan turistic, economic, de muncă, social și cultural.</p><p>Îi transmitem noii doamne Consul Onorific și întregului corp consular cele mai bune urări de succes pentru acest mandat în folosul comunității noastre!</p>",
             pe_btn: "Descoperă mai mult",
             btn_donate: "Susține-ne",
             hero_btn_register: "Înregistrează-te Online",
@@ -568,33 +506,6 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="color: var(--primary);">💖 Voluntary Donation</h3>
     <p>The festival is <strong>completely free for everyone</strong>. To help us cover unfunded logistical costs (security, land rental, sanitization), we propose a <strong>voluntary donation of 5–10€</strong>. Any surplus will be donated to a charity association in the Republic of Moldova. Thank you!</p>
 
-    <h3 style="color: var(--primary); margin-top: 2rem;">🏆 Tournaments and Event Flyers (Demo Strategies)</h3>
-    <p>Below you can see both strategies for additional flyers.</p>
-    
-    <h4 style="margin-top: 1.5rem; margin-bottom: 1rem; color: var(--accent);">Strategy 1: Grid with Lightbox</h4>
-    <div class="flyer-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-        <div class="flyer-thumb" data-src="images/posts/calcio.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/calcio.jpeg" alt="Football Flyer" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-        <div class="flyer-thumb" data-src="images/posts/NetGreen.jpeg" style="cursor: pointer; border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-            <img src="images/posts/NetGreen.jpeg" alt="Mammanet Flyer" style="width: 100%; height: 250px; object-fit: cover;">
-        </div>
-    </div>
-
-    <h4 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent);">Strategy 2: Accordion (Expandable)</h4>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Football Tournament (Click to expand)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/calcio.jpeg" alt="Football Flyer" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-    <details style="background: #f9f9f9; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; border-left: 4px solid var(--secondary);">
-        <summary style="font-weight: bold; cursor: pointer; color: var(--primary); outline: none;">Mammanet Tournament - NetGreen (Click to expand)</summary>
-        <div style="margin-top: 1rem;">
-            <img src="images/posts/NetGreen.jpeg" alt="Mammanet Flyer" style="max-width: 100%; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        </div>
-    </details>
-
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Map and Directions</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -647,10 +558,6 @@ document.addEventListener('DOMContentLoaded', () => {
             post4_title: "Liberation Day in Cesena - Community and Inclusion",
             post4_desc: "A special meeting at the Serravalle Gardens to celebrate Liberation Day united by culture, traditions, and sharing.",
             post4_full: "<p>✨🌍 <strong>Cesena meets, Cesena unites</strong> 🌍✨</p><p>On Saturday, April 25, at 2:30 PM, the Serravalle Gardens in Cesena will transform into a special place, where cultures, traditions, and people meet to celebrate Liberation Day together.</p><p>It will be a day dedicated to freedom, community, and the beauty of diversity that becomes wealth.<br>🌿 A moment when all communities, cultures, and families will gather in the same space, united by the same value: being free, together.</p><p>🎶 Music, colors, traditions, and smiles will accompany this special afternoon.</p><p>👨&zwj;👩&zwj;👧&zwj;👦 An event open to all, adults and children, where every presence counts and every culture tells a story.</p><p>💛 Because freedom is even stronger when shared.</p><p>📍 <strong>Where:</strong> Giardini di Serravalle, Cesena<br>🕒 <strong>When:</strong> Saturday, April 25, 2:30 PM</p><p>We wait for you to celebrate together, with an open heart and the spirit of community.</p><p><em>#25Aprile #Cesena #FestaDellaLiberazione #Comunità #Insieme #Inclusione #Tradizioni #Unità</em></p>",
-            post5_date: "April 23, 2026 | Rimini",
-            post5_title: "Honorary Consulate of the Republic of Moldova opened in Rimini",
-            post5_desc: "The new Honorary Consulate for Emilia-Romagna opens in Rimini, led by lawyer Nicoletta Gagliani, offering free services for the community.",
-            post5_full: "<p>On Thursday, April 23, 2026, the city of Rimini hosted the official inauguration of the <strong>Honorary Consulate of the Republic of Moldova for Emilia-Romagna</strong>. The ceremony saw the participation of numerous institutional figures, including Ambassador <strong>Oleg Nica</strong> and the Consul General in Milan <strong>Andrian Popescu</strong>, marking a new chapter in strengthening bilateral ties between Italy and Moldova.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">What is the role of the new Honorary Consulate?</h4><p>The new diplomatic office, located in Rimini with jurisdiction over the provinces of Rimini and Forlì-Cesena, was established to be an operational reference point for the large Moldovan community living in the area. Notably, as a direct benefit for the community, the lawyer's office will provide <strong>completely free legal consultancy services</strong> to Moldovan citizens, promoting their protection and integration.</p><h4 style=\"color: var(--primary); margin-top: 1.5rem; margin-bottom: 0.5rem;\">Who is Nicoletta Gagliani?</h4><p>Heading the Consulate is <strong>Nicoletta Gagliani</strong>, a well-known lawyer from Rimini. Officially appointed as <em>Honorary Consul of the Republic of Moldova</em> following the release of the Exequatur in Rome, attorney Gagliani expressed her clear intention to transform the consulate into an institutional bridge.</p><p>Her main goal, aligned with the Embassy's directives, is to strengthen the already solid relations between the two countries, actively stimulating new opportunities for cooperation in the tourism, labor, economic, social, and cultural sectors.</p><p>We extend our best wishes to her and the entire new consular body for a successful start in serving our community!</p>",
             pe_btn: "Discover more",
             btn_donate: "Support Us",
             hero_btn_register: "Register Online",
@@ -778,40 +685,5 @@ document.addEventListener('DOMContentLoaded', () => {
             carouselContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
         });
     }
-
-    // --- Lightbox Modal Logic ---
-    document.addEventListener('click', function(e) {
-        const thumb = e.target.closest('.flyer-thumb');
-        if (thumb) {
-            const src = thumb.getAttribute('data-src');
-            if (src) {
-                // Create modal
-                const modal = document.createElement('div');
-                modal.className = 'flyer-modal active';
-                modal.innerHTML = `
-                    <div class="flyer-modal-content">
-                        <span class="flyer-modal-close">&times;</span>
-                        <img src="${src}" alt="Flyer Full">
-                    </div>
-                `;
-                document.body.appendChild(modal);
-                
-                // Block scroll
-                document.body.style.overflow = 'hidden';
-                
-                // Need small timeout for transition
-                setTimeout(() => modal.style.opacity = '1', 10);
-                
-                // Close modal
-                modal.addEventListener('click', function(event) {
-                    if (event.target !== modal.querySelector('img')) {
-                        modal.style.opacity = '0';
-                        document.body.style.overflow = '';
-                        setTimeout(() => modal.remove(), 300);
-                    }
-                });
-            }
-        }
-    });
 
 });
