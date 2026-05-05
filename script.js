@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturgia / momento spirituale – accoglienza partecipanti</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Apertura ufficiale</strong> – saluti istituzionali, presentazione organizzatori e partner</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Area Bambini</strong>: animazione, laboratori creativi, pittura sul viso, spettacolo magia e clown, "Premio Il Sorriso dell'Amicizia"</div></div>
-        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Tornei sportivi – Cupa Prieteniei</strong>: calcio, pallavolo, scacchi, lotta libera</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Tornei sportivi – Cupa Prieteniei</strong>: calcio, pallavolo, scacchi e dama, lotta libera</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Area Food</strong> attiva – cucina moldava, romena e italiana. Picnic familii.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Musica soft e ambient</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lancio del libro</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
         <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Condividi l'evento e porta la tua famiglia!</p>
-        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPILA IL FORM DI PREISCRIZIONE</a>
+        <a href="https://www.eventbrite.it/e/biglietti-diasporafest-2026-festival-internazionale-dellamicizia-1988707195757?aff=oddtdtcreator&keep_tld=true" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPILA IL FORM DI PREISCRIZIONE</a>
         
         <div style="font-size: 0.9rem; opacity: 0.9;">
             #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
             act_culture_title: "Cultura e Spettacolo",
             act_culture_desc: "Esibizioni di musica e danza tradizionale, momenti interculturali e ospiti istituzionali. La tradizione prende vita sul palco.",
             act_sport_title: "Sport e Inclusione",
-            act_sport_desc: "Tornei di calcio, pallavolo, scacchi e ping-pong. Lo sport unisce e crea nuove amicizie in un'atmosfera competitiva ma amichevole.",
+            act_sport_desc: "Tornei di calcio, pallavolo, scacchi, dama e ping-pong. Lo sport unisce e crea nuove amicizie in un'atmosfera competitiva ma amichevole.",
             act_kids_title: "Area Kids",
             act_kids_desc: "Spazi dedicati ai bambini con animazione e laboratori creativi. Un'area sicura e divertente per i più piccoli.",
             act_food_title: "Food & Beverage",
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturghie / moment spiritual – primirea participanților</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Deschidere oficială</strong> – saluturi instituționale, prezentarea organizatorilor și partenerilor</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Zona Copiilor</strong>: animație, ateliere creative, face painting, spectacol de magie și clovni, "Premiul Zâmbetul Prieteniei"</div></div>
-        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Turnee sportive – Cupa Prieteniei</strong>: fotbal, volei, șah, lupte libere</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Turnee sportive – Cupa Prieteniei</strong>: fotbal, volei, șah și dame, lupte libere</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Zona Food</strong> activă – bucătărie moldovenească, românească și italiană. Picnic în familie.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Muzică de fundal și relaxare</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lansare de carte</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
         <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Distribuie evenimentul și vino cu familia!</p>
-        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPLETEAZĂ FORMULARUL DE ÎNREGISTRARE</a>
+        <a href="https://www.eventbrite.it/e/biglietti-diasporafest-2026-festival-internazionale-dellamicizia-1988707195757?aff=oddtdtcreator&keep_tld=true" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 COMPLETEAZĂ FORMULARUL DE ÎNREGISTRARE</a>
         
         <div style="font-size: 0.9rem; opacity: 0.9;">
             #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
@@ -453,7 +453,7 @@ document.addEventListener('DOMContentLoaded', () => {
             act_culture_title: "Cultură și Spectacol",
             act_culture_desc: "Esibiții de muzică și dans tradițional, momente interculturale și oaspeți instituționali. Tradiția prinde viață pe scenă.",
             act_sport_title: "Sport și Incluziune",
-            act_sport_desc: "Turnee de fotbal, volei, șah și tenis de masă. Sportul unește și creează noi prietenii într-o atmosferă competitivă, dar prietenoasă.",
+            act_sport_desc: "Turnee de fotbal, volei, șah, dame și tenis de masă. Sportul unește și creează noi prietenii într-o atmosferă competitivă, dar prietenoasă.",
             act_kids_title: "Zona Copiilor",
             act_kids_desc: "Spații dedicate copiilor cu animație și ateliere creative. O zonă sigură și distractivă pentru cei mai mici participanți.",
             act_food_title: "Mâncare și Băutură",
@@ -554,7 +554,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">09:00 – 11:00</div><div class="pg-desc">Liturgy / spiritual moment – welcoming participants</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 12:00</div><div class="pg-desc"><strong>Official Opening</strong> – institutional greetings, presentation of organizers and partners</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 17:00</div><div class="pg-desc"><strong>Kids Area</strong>: entertainment, creative workshops, face painting, magic show and clowns, "Friendship Smile Award"</div></div>
-        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Sports Tournaments – Friendship Cup</strong>: football, volleyball, chess, freestyle wrestling</div></div>
+        <div class="pg-item"><div class="pg-time">11:30 – 18:00</div><div class="pg-desc"><strong>Sports Tournaments – Friendship Cup</strong>: football, volleyball, chess and checkers, freestyle wrestling</div></div>
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Active Food Area</strong> – Moldovan, Romanian, and Italian cuisine. Family picnic.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Soft and ambient music</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Book Launch</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
@@ -620,7 +620,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <div style="margin-top: 3rem; text-align: center; padding: 2rem; background: var(--primary); color: white; border-radius: var(--radius); box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
         <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 2rem;">Share the event and bring your family!</p>
-        <a href="https://forms.gle/5xVYXEEYi9rVX4yVA" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 FILL OUT THE PRE-REGISTRATION FORM</a>
+        <a href="https://www.eventbrite.it/e/biglietti-diasporafest-2026-festival-internazionale-dellamicizia-1988707195757?aff=oddtdtcreator&keep_tld=true" target="_blank" style="display: inline-block; background: var(--bg-white); color: var(--primary); padding: 1rem 2rem; border-radius: 30px; font-weight: bold; text-decoration: none; margin-bottom: 2rem; transition: transform 0.2s;">📝 FILL OUT THE PRE-REGISTRATION FORM</a>
         
         <div style="font-size: 0.9rem; opacity: 0.9;">
             #DiasporaFest2026 #AMIC #MoldovaInItalia #FestivalulPrieteniei #CesenaEvents #DiasporaMoldova
@@ -665,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
             act_culture_title: "Culture and Spectacle",
             act_culture_desc: "Exhibitions of traditional music and dance, intercultural moments, and institutional guests. Tradition comes to life on stage.",
             act_sport_title: "Sport and Inclusion",
-            act_sport_desc: "Tournaments of football, volleyball, chess, and table tennis. Sport unites and creates new friendships in a competitive but friendly atmosphere.",
+            act_sport_desc: "Tournaments of football, volleyball, chess, checkers, and table tennis. Sport unites and creates new friendships in a competitive but friendly atmosphere.",
             act_kids_title: "Kids Area",
             act_kids_desc: "Spaces dedicated to children with animation and creative workshops. A safe and fun area for the youngest participants.",
             act_food_title: "Food & Beverage",
