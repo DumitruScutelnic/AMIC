@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nav_activities: "Attività",
             nav_events: "Eventi",
             nav_partners: "Partner",
-            hero_date: "31 Maggio 2026 | <a href=\"https://maps.google.com/?q=Parco+per+Fabio,+Cesena\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
+            hero_date: "31 Maggio 2026 | <a href=\"https://www.google.com/maps/place/Parco+per+Fabio/@44.1330572,12.2254627,637m/data=!3m1!1e3!4m6!3m5!1s0x132ca593a9e59bb7:0xad51d53b0ef9b9da!8m2!3d44.1330264!4d12.2275012!16s%2Fg%2F11hhgyj62v?hl=it&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
             hero_title: "DiasporaFest <br> Festival Internazionale dell'<span class=\"text-gradient\">Amicizia</span>",
             hero_subtitle: "Un ponte vibrante tra identità, cultura e integrazione organizzato da AMIC.",
             btn_discover: "Scopri di più",
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Mappa e Indicazioni (Cum ajungi?)</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://maps.google.com/maps?q=44.1330264,12.2275012+(Parco+per+Fabio)&t=k&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <h3 style="color: var(--primary);">🤔 FAQ - Domande Frequenti</h3>
@@ -291,7 +291,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nav_activities: "Activități",
             nav_events: "Evenimente",
             nav_partners: "Parteneri",
-            hero_date: "31 Mai 2026 | <a href=\"https://maps.google.com/?q=Parco+per+Fabio,+Cesena\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
+            hero_date: "31 Mai 2026 | <a href=\"https://www.google.com/maps/place/Parco+per+Fabio/@44.1330572,12.2254627,637m/data=!3m1!1e3!4m6!3m5!1s0x132ca593a9e59bb7:0xad51d53b0ef9b9da!8m2!3d44.1330264!4d12.2275012!16s%2Fg%2F11hhgyj62v?hl=it&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
             hero_title: "DiasporaFest <br> Festivalul Internațional al <span class=\"text-gradient\">Prieteniei</span>",
             hero_subtitle: "Un pod vibrant între identitate, cultură și integrare organizat de AMIC.",
             btn_discover: "Descoperă mai mult",
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Hartă și Indicații (Cum ajungi?)</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://maps.google.com/maps?q=44.1330264,12.2275012+(Parco+per+Fabio)&t=k&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <h3 style="color: var(--primary);">🤔 FAQ - Întrebări Frecvente</h3>
@@ -508,7 +508,7 @@ document.addEventListener('DOMContentLoaded', () => {
             nav_activities: "Activities",
             nav_events: "Events",
             nav_partners: "Partners",
-            hero_date: "May 31, 2026 | <a href=\"https://maps.google.com/?q=Parco+per+Fabio,+Cesena\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
+            hero_date: "May 31, 2026 | <a href=\"https://www.google.com/maps/place/Parco+per+Fabio/@44.1330572,12.2254627,637m/data=!3m1!1e3!4m6!3m5!1s0x132ca593a9e59bb7:0xad51d53b0ef9b9da!8m2!3d44.1330264!4d12.2275012!16s%2Fg%2F11hhgyj62v?hl=it&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" style=\"color: inherit; text-decoration: underline;\">Parco per Fabio, Cesena</a>",
             hero_title: "DiasporaFest <br> International <span class=\"text-gradient\">Friendship</span> Festival",
             hero_subtitle: "A vibrant bridge between identity, culture, and integration organized by AMIC.",
             btn_discover: "Discover more",
@@ -607,7 +607,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <h3 style="color: var(--primary); margin-top: 2rem;">📍 Map and Directions</h3>
     <div style="border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; margin-top: 1rem;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.9772879502283!2d12.234694415510619!3d44.14819777910777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5accad0b7eb%3A0x8fc898af4be15560!2sParco%20per%20Fabio!5e0!3m2!1sit!2sit!4v1683294326123!5m2!1sit!2sit" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://maps.google.com/maps?q=44.1330264,12.2275012+(Parco+per+Fabio)&t=k&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <h3 style="color: var(--primary);">🤔 FAQ - Frequently Asked Questions</h3>
