@@ -97,20 +97,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Chi Siamo / Organizatori</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
-        <p><strong>Organizzatore principale:</strong><br>
+        <p><strong>Organizzato da:</strong><br>
+        Associazione AMIC (affiliata ARCI), in partenariato con l'Associazione Cimbrișor e l'Associazione Busuioc.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Sotto il patrocinio di:</strong><br>
+        Comune di Cesena e Consolato Generale della Repubblica di Moldova a Milano.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Con il sostegno finanziario del:</strong><br>
+        Ministero della Cultura della Repubblica di Moldova.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Le attività sono realizzate nell'ambito del Programma di sostegno alle iniziative e ai progetti per il coinvolgimento della diaspora (Diaspora Engagement Hub – DEH), attuato dalla Cancelleria di Stato tramite l'Ufficio Relazioni con la Diaspora con il sostegno finanziario del Governo.</strong></p>
+
+        <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0,0,0,0.1);">
+
+        <p><strong>Contatti organizzatore:</strong><br>
         AMIC APS – Associazione dei Moldavi con Impatto Comunitario, Cesena (FC)<br>
-        Președinte: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
+        Presidente: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
         🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
-        
-        <p style="margin-top: 1rem;"><strong>Partner ufficiale:</strong><br>
-        ASD Cimbrișor – Verona (15 ani de activitate, 10+ concerte ed eventi)<br>
-        Președinte: Lucia Zupcu</p>
-        
-        <p style="margin-top: 1rem;"><strong>Partner artistici:</strong><br>
-        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
-        
-        <p style="margin-top: 1rem;"><strong>Patrocinio e Supporto:</strong><br>
-        Consolato Generale della Repubblica di Moldova a Milano, Comune di Cesena</p>
     </div>
 
     <h3 style="color: var(--primary);">🕒 Il Programma Completo (Programul)</h3>
@@ -322,20 +325,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Cine Suntem / Organizatori</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
-        <p><strong>Organizator principal:</strong><br>
+        <p><strong>Organizat de:</strong><br>
+        Asociația AMIC (afiliată ARCI), în parteneriat cu Asociația Cimbrișor și Asociația Busuioc.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Sub patronajul:</strong><br>
+        Primăriei Cesena și al Consulatului General al Republicii Moldova la Milano.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Cu sprijinul financiar al:</strong><br>
+        Ministerului Culturii al Republicii Moldova.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Activitățile sunt realizate în cadrul Programului de susținere a inițiativelor și proiectelor pentru implicarea diasporei (Diaspora Engagement Hub – DEH), implementat de Cancelaria de Stat prin intermediul Biroului Relații cu Diaspora cu susținerea financiară din partea Guvernului.</strong></p>
+
+        <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0,0,0,0.1);">
+
+        <p><strong>Contacte organizator:</strong><br>
         AMIC APS – Asociația Moldovenilor cu Impact Comunitar, Cesena (FC)<br>
         Președinte: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
         🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
-        
-        <p style="margin-top: 1rem;"><strong>Partener oficial:</strong><br>
-        ASD Cimbrișor – Verona (15 ani de activitate, peste 10 concerte și evenimente)<br>
-        Președinte: Lucia Zupcu</p>
-        
-        <p style="margin-top: 1rem;"><strong>Parteneri artistici:</strong><br>
-        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
-        
-        <p style="margin-top: 1rem;"><strong>Patronaj și Sprijin:</strong><br>
-        Consulatul General al Republicii Moldova la Milano, Primăria Comunei Cesena</p>
     </div>
 
     <h3 style="color: var(--primary);">🕒 Programul Complet</h3>
@@ -547,20 +553,23 @@ document.addEventListener('DOMContentLoaded', () => {
     
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Who We Are / Organizers</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
-        <p><strong>Main Organizer:</strong><br>
+        <p><strong>Organized by:</strong><br>
+        AMIC Association (affiliated with ARCI), in partnership with Cimbrișor Association and Busuioc Association.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Under the patronage of:</strong><br>
+        Municipality of Cesena and the Consulate General of the Republic of Moldova in Milan.</p>
+        
+        <p style="margin-top: 1rem;"><strong>With the financial support of:</strong><br>
+        Ministry of Culture of the Republic of Moldova.</p>
+        
+        <p style="margin-top: 1rem;"><strong>Activities are carried out within the Program for supporting initiatives and projects for diaspora engagement (Diaspora Engagement Hub – DEH), implemented by the State Chancellery through the Bureau for Diaspora Relations with financial support from the Government.</strong></p>
+
+        <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid rgba(0,0,0,0.1);">
+
+        <p><strong>Organizer contact:</strong><br>
         AMIC APS – Association of Moldovans with Community Impact, Cesena (FC)<br>
         President: Aliona Causnean | 📧 <a href="mailto:amicimpact@gmail.com">amicimpact@gmail.com</a> | 📞 +39 347 3220558<br>
         🌐 <a href="https://associazione-amic.it" target="_blank">associazione-amic.it</a></p>
-        
-        <p style="margin-top: 1rem;"><strong>Official Partner:</strong><br>
-        ASD Cimbrișor – Verona (15 years of activity, 10+ concerts and events)<br>
-        President: Lucia Zupcu</p>
-        
-        <p style="margin-top: 1rem;"><strong>Artistic Partners:</strong><br>
-        Ansamblul Busuioc (Padova) & Ansamblul Vatra (Torino)</p>
-        
-        <p style="margin-top: 1rem;"><strong>Patronage and Support:</strong><br>
-        Consulate General of the Republic of Moldova in Milan, Municipality of Cesena</p>
     </div>
 
     <h3 style="color: var(--primary);">🕒 Full Program</h3>
