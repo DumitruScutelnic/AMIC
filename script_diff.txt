@@ -57,7 +57,7 @@
 >             partner_17: "Consolato Generale della Repubblica di Moldova a Milano",
 >             partner_18: "Guvernul Republicii Moldova",
 >             partner_19: "Biroul Relații cu Diaspora",
->             partner_20: "Diaspora engagement Hub",
+>             partner_20: "Diaspora Engagement Hub",
 >             partner_21: "Ministerul culturii al republicii moldova",
 >             partner_22: "Ambasciata Republicii Moldova",
 314c350
@@ -119,7 +119,7 @@
 >             partner_17: "Consulatul General al Republicii Moldova la Milano",
 >             partner_18: "Guvernul Republicii Moldova",
 >             partner_19: "Biroul Relații cu Diaspora",
->             partner_20: "Diaspora engagement Hub",
+>             partner_20: "Diaspora Engagement Hub",
 >             partner_21: "Ministerul culturii al republicii moldova",
 >             partner_22: "Ambasciata Republicii Moldova",
 495c567
@@ -181,7 +181,7 @@
 >             partner_17: "Consulate General of the Republic of Moldova in Milan",
 >             partner_18: "Guvernul Republicii Moldova",
 >             partner_19: "Biroul Relații cu Diaspora",
->             partner_20: "Diaspora engagement Hub",
+>             partner_20: "Diaspora Engagement Hub",
 >             partner_21: "Ministerul culturii al republicii moldova",
 >             partner_22: "Ambasciata Republicii Moldova",
 688a797,831
