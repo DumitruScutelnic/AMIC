@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Chi Siamo / Organizatori</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
         <p><strong>Organizzato da:</strong><br>
-        Associazione AMIC (affiliata ARCI), in partenariato con l'Associazione Cimbrișor e l'Associazione Busuioc.</p>
+        Associazione AMIC (affiliata ARCI), in partenariato con l'Associazione Cimbrișor, l'Associazione Busuioc e Ballerini di Settecrociari di Paolo Pasini.</p>
         
         <p style="margin-top: 1rem;"><strong>Sotto il patrocinio di:</strong><br>
         Comune di Cesena e Consolato Generale della Repubblica di Moldova a Milano.</p>
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Area Food</strong> attiva – cucina moldava, romena e italiana. Picnic familii.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Musica soft e ambient</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lancio del libro</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
-        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spettacoli folcloristici</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spettacoli folcloristici</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)<br>Performance del gruppo Settecrociari con Paolo Pasini</div></div>
         <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Pausa tecnica</div></div>
         <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Concerto serale</strong> – Ion Paladi (artista della Repubblica di Moldova) + Chef Basarabean (band musicale tradizionale)</div></div>
         <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Saluti finali, ringraziamenti, invito all'edizione 2027</div></div>
@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Cine Suntem / Organizatori</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
         <p><strong>Organizat de:</strong><br>
-        Asociația AMIC (afiliată ARCI), în parteneriat cu Asociația Cimbrișor și Asociația Busuioc.</p>
+        Asociația AMIC (afiliată ARCI), în parteneriat cu Asociația Cimbrișor, Asociația Busuioc și Ballerini di Settecrociari di Paolo Pasini.</p>
         
         <p style="margin-top: 1rem;"><strong>Sub patronajul:</strong><br>
         Primăriei Cesena și al Consulatului General al Republicii Moldova la Milano.</p>
@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Zona Food</strong> activă – bucătărie moldovenească, românească și italiană. Picnic în familie.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Muzică de fundal și relaxare</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Lansare de carte</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
-        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spectacole folclorice</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Spectacole folclorice</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)<br>Performance del gruppo Settecrociari con Paolo Pasini</div></div>
         <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Pauză tehnică</div></div>
         <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Concert de seară</strong> – Ion Paladi (Artist al Poporului din Republica Moldova) + Chef Basarabean (taraf tradițional)</div></div>
         <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Saluturi finale, mulțumiri, invitație pentru ediția din 2027</div></div>
@@ -556,7 +556,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <h3 style="margin-top: 2rem; color: var(--primary);">👥 Who We Are / Organizers</h3>
     <div style="background: var(--bg-light); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem;">
         <p><strong>Organized by:</strong><br>
-        AMIC Association (affiliated with ARCI), in partnership with Cimbrișor Association and Busuioc Association.</p>
+        AMIC Association (affiliated with ARCI), in partnership with Cimbrișor Association, Busuioc Association and Ballerini di Settecrociari di Paolo Pasini.</p>
         
         <p style="margin-top: 1rem;"><strong>Under the patronage of:</strong><br>
         Municipality of Cesena and the Consulate General of the Republic of Moldova in Milan.</p>
@@ -595,7 +595,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="pg-item"><div class="pg-time">11:00 – 22:30</div><div class="pg-desc"><strong>Active Food Area</strong> – Moldovan, Romanian, and Italian cuisine. Family picnic.</div></div>
         <div class="pg-item"><div class="pg-time">12:00 – 14:00</div><div class="pg-desc">Soft and ambient music</div></div>
         <div class="pg-item"><div class="pg-time">12:30</div><div class="pg-desc"><strong>Book Launch</strong>: <em>"Apa care îşi bea mâinile / L'acqua che si beve le mani"</em> – Radmila Popovici</div></div>
-        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Folklore Shows</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)</div></div>
+        <div class="pg-item"><div class="pg-time">15:00 – 18:00</div><div class="pg-desc"><strong>Folklore Shows</strong>: Ansamblul Cimbrișor (Verona), Ansamblul Busuioc (Padova), Ansamblul Vatra (Torino)<br>Performance by Settecrociari group with Paolo Pasini</div></div>
         <div class="pg-item"><div class="pg-time">18:00 – 19:00</div><div class="pg-desc">Technical break</div></div>
         <div class="pg-item"><div class="pg-time">19:00 – 22:00</div><div class="pg-desc">🎤 <strong>Evening Concert</strong> – Ion Paladi (People's Artist of the Republic of Moldova) + Chef Basarabean (traditional music band)</div></div>
         <div class="pg-item"><div class="pg-time">22:30 – 23:00</div><div class="pg-desc">Final greetings, thanks, invitation to the 2027 edition</div></div>
